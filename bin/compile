@@ -15,6 +15,7 @@ ENV_DIR=$3
 
 # add the XeLaTeX to the future PATH + update actual PATH
 echo ":$BUILD_DIR/buildpack/bin/x86_64-linux" >> $ENV_DIR/PATH
+echo ":$BUILD_DIR/buildpack/bin/x86_64-linux" >> $ENV_DIR/BIN_PATH
 export PATH="$PATH:$BUILD_DIR/buildpack/bin/x86_64-linux"
 # set path to the archive
 VERSION=$(stat --format "%y" $TEXLIVE_ARCHIVE_PATH)
