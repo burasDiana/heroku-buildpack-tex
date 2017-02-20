@@ -18,9 +18,9 @@ echo ":$BUILD_DIR/buildpack/bin/x86_64-linux" >> $ENV_DIR/PATH
 echo ":$BUILD_DIR/buildpack/bin/x86_64-linux" >> $ENV_DIR/BIN_PATH
 export PATH="$PATH:$BUILD_DIR/buildpack/bin/x86_64-linux"
 # set path to the archive
+TEXLIVE_ARCHIVE_PATH="$BIN_DIR/../static_latex.tar.xz"
 VERSION=$(stat --format "%y" $TEXLIVE_ARCHIVE_PATH)
 build-step "Using XeLaTeX archive from: $VERSION"
-TEXLIVE_ARCHIVE_PATH="$BIN_DIR/../static_latex.tar.xz"
 tar xf $TEXLIVE_ARCHIVE_PATH -C $BUILD_DIR
 
 # Check for an essential binary to make sure it's installed
