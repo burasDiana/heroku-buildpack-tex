@@ -23,6 +23,9 @@ VERSION=$(stat --format "%y" $TEXLIVE_ARCHIVE_PATH)
 build-step "Using XeLaTeX archive from: $VERSION"
 tar xf $TEXLIVE_ARCHIVE_PATH -C $BUILD_DIR
 
+# copy also fonts directory into $BUILD_DIR - there will be flat fonts dir structure
+cp -r "$BIN_DIR/../fonts" $BUILD_DIR
+
 # Check for an essential binary to make sure it's installed
 if [ ! `which xelatex` ]; then
     build-warn "XeLaTeX Live installation failed"
