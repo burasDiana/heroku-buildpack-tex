@@ -17,12 +17,8 @@ ENV_DIR=$3
 echo ":$BUILD_DIR/buildpack/bin/x86_64-linux" >> $ENV_DIR/PATH
 echo ":$BUILD_DIR/buildpack/bin/x86_64-linux" >> $ENV_DIR/BIN_PATH
 export PATH="$PATH:$BUILD_DIR/buildpack/bin/x86_64-linux"
-# set path to the archive
-TEXLIVE_ARCHIVE_PATH="$BIN_DIR/../static_latex.tar.xz"
-VERSION=$(stat --format "%y" $TEXLIVE_ARCHIVE_PATH)
-build-step "Using XeLaTeX archive from: $VERSION"
-tar xf $TEXLIVE_ARCHIVE_PATH -C $BUILD_DIR
-
+# copy the buildpack to the right place
+cp -r $BIN_DIR/../buildpack $BUILD_DIR
 # copy also fonts directory into $BUILD_DIR - there will be flat fonts dir structure
 cp -r "$BIN_DIR/../fonts" $BUILD_DIR
 
