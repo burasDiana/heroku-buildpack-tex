@@ -38,8 +38,8 @@ set +e  # disable error checking
 build-step "Now - running the testing build\n\n\n"
 
 cd $BUILD_DIR/buildpack/bin/x86_64-linux/
-mktexlsr  # reindex the packages
-xelatex --shell-escape -synctex=1 -interaction=nonstopmode ./brano2017-02-09_buildpack.tex
+./mktexlsr  # reindex the packages
+./xelatex --shell-escape -synctex=1 -interaction=nonstopmode ./brano2017-02-09_buildpack.tex
 
 exit 0
 
