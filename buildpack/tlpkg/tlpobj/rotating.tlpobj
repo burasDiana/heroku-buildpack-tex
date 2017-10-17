@@ -1,0 +1,27 @@
+name rotating
+category Package
+revision 16832
+shortdesc Rotation tools, including rotated full-page floats.
+relocated 1
+longdesc A package built on the standard LaTeX graphics package to
+longdesc perform all the different sorts of rotation one might like,
+longdesc including complete figures and tables with their captions. If
+longdesc you want continuous text (i.e., more than one page) set in
+longdesc landscape mode, use the lscape package instead. The rotating
+longdesc packages only deals in rotated boxes (or floats, which are
+longdesc themselves boxes), and boxes always stay on one page. If you
+longdesc need to use the facilities of the float in the same document,
+longdesc load rotating.sty via rotfloat, which smooths the path between
+longdesc the rotating and float packages.
+containersize 2744
+containermd5 789047ae71a71305760cb35e26d77015
+doccontainersize 93944
+doccontainermd5 0cfaefbb336b1c25791fae0b05763843
+srccontainersize 7184
+srccontainermd5 a8fb55e2cb2402ca119c24e30b6b68d9
+runfiles size=2
+ texmf-dist/tex/latex/rotating/rotating.sty
+catalogue-ctan /macros/latex/contrib/rotating
+catalogue-date 2013-05-02 11:49:25 +0200
+catalogue-license lppl
+catalogue-version 2.16b

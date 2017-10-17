@@ -1,0 +1,20 @@
+name ucharclasses
+category Package
+revision 27820
+shortdesc Font actions in XeTeX according to what is being processed.
+relocated 1
+longdesc The package takes care of switching fonts when you switch from
+longdesc one Unicode block to another in the text of a document. This
+longdesc way, you can write a document with no explicit font selection,
+longdesc but a series of rules of the form "when entering block ...,
+longdesc switch font to use ...".
+containersize 6268
+containermd5 891db0349ceded8b96eecd8588e3c2c5
+doccontainersize 149888
+doccontainermd5 ad921e6ccbeeaa76a995a3da40441250
+runfiles size=6
+ texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+catalogue-ctan /macros/xetex/latex/ucharclasses
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license pd
+catalogue-version 2.0

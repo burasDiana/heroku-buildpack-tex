@@ -1,0 +1,40 @@
+name seminar
+category Package
+revision 34011
+shortdesc Make overhead slides.
+relocated 1
+longdesc A class that produces overhead slides (transparencies), with
+longdesc many facilities. The class requires availability of the
+longdesc fancybox package. Seminar is also the basis of other classes,
+longdesc such as prosper. In fact, seminar is not nowadays reckoned a
+longdesc good basis for a presentation -- users are advised to use more
+longdesc recent classes such as powerdot or beamer, both of which are
+longdesc tuned to 21st-century presentation styles. Note that the
+longdesc seminar distribution relies on the xcomment package, which was
+longdesc once part of the bundle, but now has a separate existence.
+containersize 29920
+containermd5 9fe8ee874a84fcf32c648e311c1490d9
+doccontainersize 356048
+doccontainermd5 d24d8debd08ae58018b2c0f2700c8eda
+runfiles size=48
+ texmf-dist/tex/latex/seminar/npsfont.sty
+ texmf-dist/tex/latex/seminar/sem-a4.sty
+ texmf-dist/tex/latex/seminar/sem-dem.sty
+ texmf-dist/tex/latex/seminar/sem-page.sty
+ texmf-dist/tex/latex/seminar/semcolor.sty
+ texmf-dist/tex/latex/seminar/semhelv.sty
+ texmf-dist/tex/latex/seminar/seminar.bg2
+ texmf-dist/tex/latex/seminar/seminar.bug
+ texmf-dist/tex/latex/seminar/seminar.cls
+ texmf-dist/tex/latex/seminar/seminar.sty
+ texmf-dist/tex/latex/seminar/semlayer.sty
+ texmf-dist/tex/latex/seminar/semlcmss.sty
+ texmf-dist/tex/latex/seminar/semrot.sty
+ texmf-dist/tex/latex/seminar/slidesec.sty
+ texmf-dist/tex/latex/seminar/tvz-code.sty
+ texmf-dist/tex/latex/seminar/tvz-hax.sty
+ texmf-dist/tex/latex/seminar/tvz-user.sty
+catalogue-ctan /macros/latex/contrib/seminar
+catalogue-date 2014-05-14 16:12:10 +0200
+catalogue-license lppl1.2
+catalogue-version 1.62

@@ -1,0 +1,18 @@
+name bidishadowtext
+category Package
+revision 34633
+shortdesc Bidi-aware shadow text.
+relocated 1
+longdesc This package allows you to typeset Bidi-aware shadow text. It
+longdesc is a re-implementation of the shadowtext package adding bidi
+longdesc support.
+containersize 1248
+containermd5 c59174f69c45ef76ff5347beecbdd2f2
+doccontainersize 120568
+doccontainermd5 f272ddb046a4f5826e9e144140c43393
+runfiles size=1
+ texmf-dist/tex/xelatex/bidishadowtext/bidishadowtext.sty
+catalogue-ctan /macros/xetex/latex/bidishadowtext
+catalogue-date 2014-09-06 11:05:32 +0200
+catalogue-license lppl1.3
+catalogue-version 0.1

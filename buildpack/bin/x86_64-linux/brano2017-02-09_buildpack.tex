@@ -1,0 +1,412 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper, total={8in, 9in}]{geometry}
+\usepackage{graphicx}  % for images
+\usepackage{caption}  % for subfigures
+\usepackage{subcaption}  % for subfigures
+\usepackage{chngcntr}
+% \usepackage{filecontents}  % for base64 images
+\graphicspath{ {/tmp}{/home} } % for images
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{booktabs}
+\usepackage{fontspec} % to use a custom font (e.g., Roboto). To use with lualatex instead of pdflatex
+\newfontfamily\arabicfont[Path=../../texmf-dist/fonts/truetype/public/amiri/,
+      Extension      = .ttf,
+      UprightFont    = *-regular,
+      ItalicFont     = *-slanted,
+      BoldFont       = *-bold,
+      BoldItalicFont = *-boldslanted,
+      Script=Arabic,
+      Scale=1.1,]{amiri}
+\newfontfamily\englishfont[Path=../../texmf-dist/fonts/truetype/google/roboto/,
+      Extension      = .ttf,
+      UprightFont    = *-Light,
+      ItalicFont     = *-LightItalic,
+      BoldFont       = *-Bold,
+      BoldItalicFont = *-BoldItalic,]{Roboto}
+% \setmainfont[Path=/usr/share/texlive/texmf-dist/fonts/truetype/google/roboto/,
+%      Extension      = .ttf,
+%      UprightFont    = *-Light,
+%      ItalicFont     = *-LightItalic,
+%      BoldFont       = *-Bold,
+%      BoldItalicFont = *-BoldItalic,
+%      ]{Roboto}
+\setmainfont[Path=../../texmf-dist/fonts/truetype/public/amiri/,
+      Extension      = .ttf,
+      UprightFont    = *-regular,
+      ItalicFont     = *-slanted,
+      BoldFont       = *-bold,
+      BoldItalicFont = *-boldslanted,
+      Script=Arabic,
+      Scale=1.1,]{amiri}
+\usepackage{lastpage} % to use the last page number in footer
+\usepackage{datetime} % to get months as a words, not numbers
+\usepackage[table,xcdraw]{xcolor} % for tables
+\usepackage{multirow} % for tables
+% \usepackage{array} % for tables
+\usepackage{fancyhdr}
+\pagestyle{fancy}  % to have header and footer
+
+% \usepackage{grffile} % to manage fancy characters in figure file names (i.e., underscores)
+
+\usepackage[hidelinks]{hyperref}  % to make clickable table of contents
+% \hypersetup{colorlinks,allcolor=black}  % to set up link colors (probably unnecessary)
+
+\usepackage{float}  % must be loaded before bidi package (loaded by polyglossia)
+
+% polyglossia stuff:
+\usepackage{polyglossia}
+\setmainlanguage[numerals=maghrib]{arabic}
+\setotherlanguage{english}
+
+
+% the next 5 lines are to set the figure positioning. Figures in spare pages are centered to
+% cover all the blank space. With these settings they are forced to align to the top of the page
+\makeatletter
+\setlength\@fptop{0pt}
+\setlength\@fpsep{30pt plus 0fil}
+\setlength\@fpbot{0pt}
+\makeatother
+
+\setlength{\abovetopsep}{1ex} % to set up the separation distance between the caption and the table
+
+\setlength\topmargin{-40pt} % Top margin
+\setlength\headheight{20pt} % Header height
+%\setlength\textwidth{7.0in} % Text width
+\setlength\textheight{9.5in} % Text height
+%\setlength\oddsidemargin{-30pt} % Left margin
+%\setlength\evensidemargin{-30pt} % Left margin (even pages) - only relevant with 'twoside' article option
+
+\DeclareCaptionLabelFormat{arabic}{#2 #1}
+\captionsetup{labelfont=it,textfont=bf,labelformat=arabic}
+\appto\captionsarabic{\renewcommand{\figurename}{صورة}}
+\captionsetup[table]{name=\textarabic{الطاولة}}
+\counterwithin{figure}{section}
+
+\renewcommand*\contentsname{\textarabic{جدول المحتويات}}
+
+
+
+
+\begin{document}
+
+\includegraphics{myfigure.png}
+
+\newpage
+
+\fancyhf{}
+\fancyhead[R]{ test  }
+\fancyhead[L]{\includegraphics[width=2cm]{Solargis-noR-RGB.png}} 
+\fancyfoot[R]{\thepage / \pageref{LastPage}}
+\fancyfoot[L]{Chapter \nouppercase{\leftmark} \ {\textcopyright} Solargis, {\monthname} \the\year}
+
+\title{ Solargis PVplanner report }
+%\author{\textenglish{Solargis\texttrademark  s.r.o}}
+\author{Solargis\texttrademark  s.r.o}
+
+\maketitle
+\thispagestyle{empty}
+
+\newpage
+\setcounter{page}{1}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+
+\section{ الموقع الجغرافي }
+
+\begin{table}[h!]
+% \centering
+\begin{tabular} { p{3cm}p{5cm} }
+ \textbf{\textarabic{  اسم الموقع الجغرافي }} &
+\cellcolor[HTML]{ FFFFFF } Souissi
+
+\\
+
+ \textbf{\textarabic{  خط العرض }} &
+\cellcolor[HTML]{ FFFFFF } 33.951904
+
+\\
+
+ \textbf{\textarabic{  خط الطول }} &
+\cellcolor[HTML]{ FFFFFF } -6.804657
+
+\\
+
+\end{tabular}
+\end{table}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{overview_map.png}
+\end{figure}
+
+\section{ الإشعاع الكلي الأفقي: المجموع الشهري و السنوي }
+
+\newpage
+
+\begin{table}[h!]
+% \centering
+
+\begin{tabular} { llllllllllllll }
+ \hline
+
+\rowcolor[HTML]{ EFEFEF }
+\textbf{  }
+
+& \textbf{\textarabic{ يناير }}
+
+& \textbf{\textarabic{ فبراير }}
+
+& \textbf{\textarabic{ مارس }}
+
+& \textbf{\textarabic{ أبريل }}
+
+& \textbf{\textarabic{ ماي }}
+
+& \textbf{\textarabic{ يونيو }}
+
+& \textbf{\textarabic{ يوليوز }}
+
+& \textbf{\textarabic{ غشت }}
+
+& \textbf{\textarabic{ شتنبر }}
+
+& \textbf{\textarabic{ أكتوبر }}
+
+& \textbf{\textarabic{ نونبر }}
+
+& \textbf{\textarabic{ دجنبر }}
+
+& \textbf{  }
+ \\  \hline
+
+ 2012 &
+
+\cellcolor[HTML]{ E9F949 } 155
+ & \cellcolor[HTML]{ E9F949 } 152  & \cellcolor[HTML]{ FA8C21 } 220  & \cellcolor[HTML]{ FA8C21 } 198  & \cellcolor[HTML]{ F2413D } 245  & \cellcolor[HTML]{ FFD62B } 188  & \cellcolor[HTML]{ 62B0C3 } 100  & \cellcolor[HTML]{ F2413D } 225  & \cellcolor[HTML]{ 77E16A } 122  & \cellcolor[HTML]{ FFD62B } 182  & \cellcolor[HTML]{ E9F949 } 160  & \cellcolor[HTML]{ 62B0C3 } 103
+
+ & 2050
+
+\\  \hline
+
+ 2013 &
+
+\cellcolor[HTML]{ FFD62B } 176
+ & \cellcolor[HTML]{ FA8C21 } 215  & \cellcolor[HTML]{ 62B0C3 } 107  & \cellcolor[HTML]{ 62B0C3 } 94  & \cellcolor[HTML]{ E9F949 } 149  & \cellcolor[HTML]{ 3A52bA } 62  & \cellcolor[HTML]{ E9F949 } 163  & \cellcolor[HTML]{ 3A52bA } 77  & \cellcolor[HTML]{ F2413D } 243  & \cellcolor[HTML]{ 3A52bA } 85  & \cellcolor[HTML]{ FA8C21 } 206  & \cellcolor[HTML]{ FA8C21 } 196
+
+ & 1773
+
+\\  \hline
+
+ 2014 &
+
+\cellcolor[HTML]{ 62B0C3 } 100
+ & \cellcolor[HTML]{ FA8C21 } 198  & \cellcolor[HTML]{ E9F949 } 151  & \cellcolor[HTML]{ 77E16A } 136  & \cellcolor[HTML]{ E9F949 } 149  & \cellcolor[HTML]{ F2413D } 230  & \cellcolor[HTML]{ F2413D } 236  & \cellcolor[HTML]{ 62B0C3 } 108  & \cellcolor[HTML]{ 77E16A } 117  & \cellcolor[HTML]{ FA8C21 } 204  & \cellcolor[HTML]{ E9F949 } 155  & \cellcolor[HTML]{ F2413D } 249
+
+ & 2033
+
+\\  \hline
+
+ 2015 &
+
+\cellcolor[HTML]{ 62B0C3 } 93
+ & \cellcolor[HTML]{ 62B0C3 } 90  & \cellcolor[HTML]{ 77E16A } 133  & \cellcolor[HTML]{ F2413D } 236  & \cellcolor[HTML]{ FA8C21 } 218  & \cellcolor[HTML]{ FFD62B } 184  & \cellcolor[HTML]{ FA8C21 } 217  & \cellcolor[HTML]{ 62B0C3 } 98  & \cellcolor[HTML]{ E9F949 } 144  & \cellcolor[HTML]{ 3A52bA } 64  & \cellcolor[HTML]{ FA8C21 } 206  & \cellcolor[HTML]{ FFD62B } 172
+
+ & 1855
+
+\\  \hline
+
+ 2016 &
+
+\cellcolor[HTML]{ 62B0C3 } 103
+ & \cellcolor[HTML]{ 3A52bA } 63  & \cellcolor[HTML]{ 3A52bA } 66  & \cellcolor[HTML]{ F2413D } 227  & \cellcolor[HTML]{ FFD62B } 194  & \cellcolor[HTML]{ E9F949 } 147  & \cellcolor[HTML]{ F2413D } 240  & \cellcolor[HTML]{ FA8C21 } 212  & \cellcolor[HTML]{ 3A52bA } 82  & \cellcolor[HTML]{ F2413D } 225  & \cellcolor[HTML]{ FA8C21 } 204  & \cellcolor[HTML]{ 77E16A } 136
+
+ & 1899
+
+\\  \hline
+\rowcolor[HTML]{ EFEFEF }
+\textbf{ LTA }
+& \textbf{ 125 }
+& \textbf{ 143 }
+& \textbf{ 135 }
+& \textbf{ 178 }
+& \textbf{ 191 }
+& \textbf{ 162 }
+& \textbf{ 191 }
+& \textbf{ 144 }
+& \textbf{ 141 }
+& \textbf{ 152 }
+& \textbf{ 186 }
+& \textbf{ 171 }
+& \textbf{ 1922 }
+
+\\  \hline
+\end{tabular}
+
+\caption[dcdcds]{
+\textarabic{
+LTA \_ او معدل المدى الطويل. تقلبات المعدل السنوي محددة بانحراف معياري واحد (ابيض: سنوات عادية, احمر او ازرق: سنة 
+ذات حالة قصوى), الانحراف المعياري السنوي STDEV يساوي
+}
+}
+\label{ LTA-_-او-معدل-المدى-الطويل.-تقلبات-المعدل-السنوي-محددة-ب
+انحراف-معياري-واحد-(ابيض:-سنوات-عادية,-احمر-او-ازرق:-سنة-ذات-حالة-قصوى),-الانحراف-المعياري-السنوي-STDEV-يساوي- }
+
+\end{table}
+\section{ طريقة الاستخدام }
+
+% \begin{Arabic}
+البيانات الخاصة بموارد الطاقة الشمسية، بدرجة حرارة الهواء، بالطاقة 
+الكهروضوئية المتوقعة (PVOUT) وكذا الخرائط المتوفرة في بوابة أطلس الموارد الشمسية 
+للمغرب  يمكن استعمالها كمؤشر, يساعد على فهم إمكانيات الطاقة الشمسية في المغرب,
+وتعتبر هذه البوابة أداة مفيدة لاختيار وتقييم أولي للمواقع المراد إنجازها. و يمثل
+ال PVOUT تقدير الطاقة   المتوقع إنتاجها أثناء بدء  تشغيل  النظام الكهروضوئي PV. 
+التقديرات دقيقة بما فيه الكفاية للأنظمة الكهروضوئية الصغيرة والمتوسطة الحجم وذات 
+اللوحات الموجهة إلى الجنوب بالزاوية المثلى كما هو مبين في التطبيق الخاص بأطلس 
+الموارد الشمسية للمغرب.   لتصميم وتمويل مشاريع كبيرة، لابد من التوفر على، أو طلب،
+معلومات دقيقة إضافية، مثلا: 1. مواصفات دقيقة للنظام الكھروضوئی المراد استعماله, 2.
+محاكاة الطاقة الكهروضوئية ارتكازا على بيانات السلسلة الزمنية التاريخية لعدة سنوات
+أو TMY على الأقل, 3. اخذ بعين الاعتبار  حجم الدقة النسبية المتعلقة بالتقلبات 
+البينية السنوية و حجم الدقة النسبية المتعلقة بال P90 للإنتاج الكهروضوئي, 4. 
+كمية الطاقة المتوقع إنتاجها مع الأخذ بعين الاعتبار مدة الاستغلال ونسبة تدهور الأداء
+الخاص بمكونات نظام النظام الكهروضوئي. ويمكن الاطلاع على مزيد من المعلومات حول تقييم إ
+نتاج النظام الكهروضوئي الكامل على: https://solaratlas.masen.ma/about\#how\_to\_use.
+% \end{Arabic}
+
+\section{ تنبيه  و معلومات  قانونية }
+
+\begin{Arabic}
+نظرا لعدم التيقن التام من البيانات والعمليات الحسابية المستخدمة، فإن سولارجيس وكذا الوكالة 
+المغربية للطاقة الشمسية لا يضمنون دقة التقديرات. كما يجب الإشارة إلى أنه قد تم القيام 
+بالحد الأقصى الممكن لتقييم دقيق لمعلمات الطقس استنادا إلى أفضل البيانات المتاحة،
+والبرمجيات والمعرفة المتوفرة. لذا فسولارجيس والوكالة المغربية للطاقة الشمسية غير مسؤولون 
+عن أي خلل أو نتائج عرضية أو أضرار مباشرة أو غير مباشرة أو أضرار مزعومة، نتجت عن 
+استخدام تقارير البيانات المستخرجة. حقوق التأليف والنشر لسولارجيس. جميع الحقوق محفوظة.
+\end{Arabic}
+
+\section{ الدقة النسبية  للبيانات }
+
+\begin{Arabic}
+الدقة النسبية
+المتعلقة بالمخرجات السنوية  لتصميم سولارجيس الخاصة بمنطقة المغرب,
+يمكن  تقديمها على النحو التالي: بالنسبة للإشعاع الكلي الافقي  ±4.0\%,
+بالنسبة للإشعاع العمودي المباشر ±9.0\% ,بالنسبة للإشعاع الكلي المائل 
+±5.0\%. أما بالنسبة لدرجة حرارة الهواء السنوية لجل المحطات الأرضية 
+±1.0ºC وذلك بالرغم من أن درجة حرارة الهواء يمكن أن تصل إلى نسب عالية
+مثل \_4.0ºC على أرضية ذات تضاريس معقدة، مثل سفوح جبال الأطلس الكبير. أما 
+بخصوص بيانات الطاقة الكهروضوئية المتوقعة سنويا فإن الدقة النسبية قد تصل 
+حوالي ±6.5\%. يمكن الاطلاع على مزيد من المعلومات حول الدقة النسبية المتعلقة 
+بالبيانات على الرابط: https://solaratlas.masen.ma/about\#solargis\_data.
+\end{Arabic}
+
+\section{ Minipage test }
+
+\begin{minipage}{0.45\textwidth}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{overview_map.png}
+\caption{Location}  % THIS DOESN'T WORK WELL!
+\end{figure}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{overview_map.png}
+\caption{Location}  % THIS DOESN'T WORK WELL!
+\end{figure}
+\end{minipage}
+
+\begin{minipage}{0.45\textwidth}
+\begin{table}[H]
+% \centering
+\begin{tabular} { p{3cm}p{5cm} }
+ \textbf{ Location name: } & 
+\cellcolor[HTML]{ FFFFFF } Souissi
+
+\\ 
+
+ \textbf{ Latitude: } & 
+\cellcolor[HTML]{ FFFFFF } 33.951904
+
+\\ 
+
+ \textbf{ Longitude: } & 
+\cellcolor[HTML]{ FFFFFF } -6.804657
+
+\\ 
+
+\end{tabular}
+\end{table}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{tabular}{cc}\hline
+      Table head & Table head \\ \hline
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\
+        Some values & Some values \\ \hline
+      \end{tabular}
+      \captionof{table}{A table beside a figure}
+\end{minipage}
+
+
+\end{document}
+
+
+% rsync -a /media/sf_tmp__/buildpack /home/m/ ; chown -Rh m:m /home/m/buildpack ;
+% export PATH=$PATH:/home/m/buildpack/bin/x86_64-linux ; cd /home/m/buildpack/bin/x86_64-linux; mktexlsr
+% xelatex --shell-escape -synctex=1 -interaction=nonstopmode *.tex
+

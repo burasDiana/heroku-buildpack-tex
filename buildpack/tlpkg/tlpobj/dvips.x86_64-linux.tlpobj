@@ -1,0 +1,9 @@
+name dvips.x86_64-linux
+category Package
+revision 36785
+shortdesc x86_64-linux files of dvips
+containersize 140484
+containermd5 ab0b6d4e98a85b1145e06d2256862d9a
+binfiles arch=x86_64-linux size=90
+ bin/x86_64-linux/afm2tfm
+ bin/x86_64-linux/dvips

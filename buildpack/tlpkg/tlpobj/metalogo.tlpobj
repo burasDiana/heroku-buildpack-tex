@@ -1,0 +1,20 @@
+name metalogo
+category Package
+revision 18611
+shortdesc Extended TeX logo macros.
+relocated 1
+longdesc This package exposes spacing parameters for various TeX logos
+longdesc to the end user, to optimise the logos for different fonts.
+longdesc Written especially for XeLaTeX users.
+containersize 2220
+containermd5 0e52289650a170489f90a3263ba0eb61
+doccontainersize 77856
+doccontainermd5 59bafb890d5b67b2e82cd9fef4dac88a
+srccontainersize 7152
+srccontainermd5 f3e536a043358ed1e60aaa4d9f0a82e8
+runfiles size=2
+ texmf-dist/tex/latex/metalogo/metalogo.sty
+catalogue-ctan /macros/latex/contrib/metalogo
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl
+catalogue-version 0.12

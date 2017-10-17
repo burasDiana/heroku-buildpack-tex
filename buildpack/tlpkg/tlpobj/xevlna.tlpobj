@@ -1,0 +1,23 @@
+name xevlna
+category Package
+revision 30086
+shortdesc Insert non-breakable spaces using XeTeX.
+relocated 1
+longdesc The package will directly insert nonbreakable spaces (in Czech,
+longdesc vlna or vlnka), after nonsyllabic prepositions and single
+longdesc letter conjuctions, while the document is being typeset. (The
+longdesc macros recognised maths and verbatim by TeX means.) (Inserting
+longdesc nonbreakable spaces by a preprocessor will probably never be
+longdesc fully reliable, because user defined macros and environments
+longdesc cannot reliably be recognised.) The package works both with
+longdesc (Plain) XeTeX and with XeLaTeX.
+containersize 1176
+containermd5 46035171dd3dd12db3c13770ef011ac2
+doccontainersize 56256
+doccontainermd5 0e8f4d5533f1d8f2f1d14b2494d1386f
+runfiles size=1
+ texmf-dist/tex/xelatex/xevlna/xevlna.sty
+catalogue-ctan /macros/xetex/generic/xevlna
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl1.3
+catalogue-version 1.0

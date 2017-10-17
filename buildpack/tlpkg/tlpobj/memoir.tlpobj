@@ -1,0 +1,48 @@
+name memoir
+category Package
+revision 37021
+shortdesc Typeset fiction, non-fiction and mathematical books.
+relocated 1
+longdesc The memoir class is for typesetting poetry, fiction, non-
+longdesc fiction, and mathematical works. Permissible document 'base'
+longdesc font sizes range from 9 to 60pt. There is a range of page-
+longdesc styles and well over a dozen chapter-styles to choose from, as
+longdesc well as methods for specifying your own layouts and designs.
+longdesc The class also provides the functionality of over thirty of the
+longdesc more popular packages, thus simplifying document sources. The
+longdesc class automatically loads an associated patch file mempatch;
+longdesc the patch file may be updated from time to time, between
+longdesc releases of the class itself. (The patch file stays around even
+longdesc when there are no extant patches.) Users who wish to use the
+longdesc hyperref package, in a document written with the memoir class,
+longdesc should also use the memhfixc package (part of this bundle).
+longdesc Note, however, that any current version of hyperref actually
+longdesc loads the package automatically if it detects that it is
+longdesc running under memoir.
+containersize 73864
+containermd5 e9f1ac77c27ece56fbbf965a2e45c41c
+doccontainersize 3007288
+doccontainermd5 ed5d4235295aa83281543a98c2eedd04
+srccontainersize 231040
+srccontainermd5 b4953d03475f3416bad62b29188a9a03
+runfiles size=119
+ texmf-dist/makeindex/memoir/basic.gst
+ texmf-dist/tex/latex/memoir/mem10.clo
+ texmf-dist/tex/latex/memoir/mem11.clo
+ texmf-dist/tex/latex/memoir/mem12.clo
+ texmf-dist/tex/latex/memoir/mem14.clo
+ texmf-dist/tex/latex/memoir/mem17.clo
+ texmf-dist/tex/latex/memoir/mem20.clo
+ texmf-dist/tex/latex/memoir/mem25.clo
+ texmf-dist/tex/latex/memoir/mem30.clo
+ texmf-dist/tex/latex/memoir/mem36.clo
+ texmf-dist/tex/latex/memoir/mem48.clo
+ texmf-dist/tex/latex/memoir/mem60.clo
+ texmf-dist/tex/latex/memoir/mem9.clo
+ texmf-dist/tex/latex/memoir/memhfixc.sty
+ texmf-dist/tex/latex/memoir/memoir.cls
+ texmf-dist/tex/latex/memoir/mempatch.sty
+catalogue-ctan /macros/latex/contrib/memoir
+catalogue-date 2015-03-06 05:52:26 +0100
+catalogue-license lppl
+catalogue-version 3.7c

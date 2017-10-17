@@ -1,0 +1,15 @@
+name latex-bin
+category TLCore
+revision 37078
+shortdesc LaTeX executables and man pages.
+depend latex
+depend latex-bin.ARCH
+execute AddFormat name=latex engine=pdftex patterns=language.dat                              options="-translate-file=cp227.tcx *latex.ini"
+execute AddFormat name=pdflatex engine=pdftex patterns=language.dat                              options="-translate-file=cp227.tcx *pdflatex.ini"
+execute AddFormat name=dvilualatex engine=luatex                              patterns=language.dat,language.dat.lua                              options="dvilualatex.ini"
+execute AddFormat name=lualatex engine=luatex                              patterns=language.dat,language.dat.lua                              options="lualatex.ini"
+execute AddFormat name=luajitlatex mode=disabled engine=luajittex                              patterns=language.dat,language.dat.lua                              options="lualatex.ini"
+containersize 432
+containermd5 b3ea9d2363f6b1a050c1411c5f600976
+doccontainersize 19536
+doccontainermd5 12984a61df8663300f5dc90db841914e

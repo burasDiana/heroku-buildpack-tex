@@ -1,0 +1,34 @@
+name pdfpages
+category Package
+revision 37567
+shortdesc Include PDF documents in LaTeX.
+relocated 1
+longdesc This package simplifies the inclusion of external multi-page
+longdesc PDF documents in LaTeX documents. Pages may be freely selected
+longdesc and similar to psnup it is possible to put several logical
+longdesc pages onto each sheet of paper. Furthermore a lot of hypertext
+longdesc features like hyperlinks and article threads are provided. The
+longdesc package supports pdfTeX (pdflatex) and VTeX. With VTeX it is
+longdesc even possible to use this package to insert PostScript files,
+longdesc in addition to PDF files.
+depend eso-pic
+containersize 12900
+containermd5 302a0feb063d5b208d30890f79114bc7
+doccontainersize 309240
+doccontainermd5 8befc2d4920b6518362f737f784a98a3
+srccontainersize 31580
+srccontainermd5 57a655278f23a5b3cde893311b062dd0
+runfiles size=24
+ texmf-dist/tex/latex/pdfpages/pdfpages.sty
+ texmf-dist/tex/latex/pdfpages/ppdvipdfm.def
+ texmf-dist/tex/latex/pdfpages/ppdvips.def
+ texmf-dist/tex/latex/pdfpages/ppluatex.def
+ texmf-dist/tex/latex/pdfpages/ppnull.def
+ texmf-dist/tex/latex/pdfpages/pppdftex.def
+ texmf-dist/tex/latex/pdfpages/ppvtex.def
+ texmf-dist/tex/latex/pdfpages/ppxetex.def
+catalogue-ctan /macros/latex/contrib/pdfpages
+catalogue-date 2015-06-15 22:24:47 +0200
+catalogue-license lppl1.3
+catalogue-topics graphics-incl
+catalogue-version 0.4y

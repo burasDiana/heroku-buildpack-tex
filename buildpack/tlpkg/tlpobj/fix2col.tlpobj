@@ -1,0 +1,21 @@
+name fix2col
+category Package
+revision 17133
+shortdesc Fix miscellaneous two column mode features.
+relocated 1
+longdesc Fix mark handling so that \firstmark is taken from the first
+longdesc column if that column has any marks at all; keep two column
+longdesc floats like figure* in sequence with single column floats like
+longdesc figure.
+containersize 2464
+containermd5 e85aee5ad4e9ed527da092a18b4aa98f
+doccontainersize 70824
+doccontainermd5 87aa2534df28398c2f5d9a36736dba67
+srccontainersize 6212
+srccontainermd5 b999fff1099bb895ad278f3f7298ffbb
+runfiles size=2
+ texmf-dist/tex/latex/fix2col/fix2col.sty
+catalogue-ctan /macros/latex/contrib/fix2col
+catalogue-date 2012-03-12 20:11:22 +0100
+catalogue-license lppl
+catalogue-version 0.03

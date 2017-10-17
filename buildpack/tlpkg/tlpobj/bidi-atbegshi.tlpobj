@@ -1,0 +1,20 @@
+name bidi-atbegshi
+category Package
+revision 35154
+shortdesc Bidi-aware shipout macros.
+relocated 1
+longdesc The package adds some commands to the atbegshi package for
+longdesc proper placement of background material in the left and right
+longdesc corners of the output page, in both LTR and RTL modes. The
+longdesc package only works with xelatex format and should be loaded
+longdesc before the bidi package.
+containersize 1212
+containermd5 06b4c7e8bdf6de0cb0e7ef1709d8813e
+doccontainersize 66784
+doccontainermd5 1160e24adcc7f5a5f04d9c89732400bd
+runfiles size=1
+ texmf-dist/tex/xelatex/bidi-atbegshi/bidi-atbegshi.sty
+catalogue-ctan /macros/xetex/latex/bidi-atbegshi
+catalogue-date 2014-09-12 11:12:21 +0200
+catalogue-license lppl1.3
+catalogue-version 0.1

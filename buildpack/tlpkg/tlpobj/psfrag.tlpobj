@@ -1,0 +1,25 @@
+name psfrag
+category Package
+revision 15878
+shortdesc Replace strings in encapsulated PostScript figures.
+relocated 1
+longdesc Allows LaTeX constructions (equations, picture environments,
+longdesc etc.) to be precisely superimposed over Encapsulated PostScript
+longdesc figures, using your own favorite drawing tool to create an EPS
+longdesc figure and placing simple text 'tags' where each replacement is
+longdesc to be placed, with PSfrag automatically removing these tags
+longdesc from the figure and replacing them with a user specified LaTeX
+longdesc construction, properly aligned, scaled, and/or rotated.
+containersize 4452
+containermd5 8b31b8735369c3326d315e26876d5587
+doccontainersize 68800
+doccontainermd5 6b2c96b428968746fac9d43de2d44fe6
+srccontainersize 13824
+srccontainermd5 70a5e6c7d5344d37b75b19c427de116a
+runfiles size=4
+ texmf-dist/dvips/psfrag/psfrag.pro
+ texmf-dist/tex/latex/psfrag/psfrag.sty
+catalogue-ctan /macros/latex/contrib/psfrag
+catalogue-date 2014-07-11 06:53:43 +0200
+catalogue-license other-free
+catalogue-version 3.04

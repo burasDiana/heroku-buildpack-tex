@@ -1,0 +1,32 @@
+name caption
+category Package
+revision 30449
+shortdesc Customising captions in floating environments.
+relocated 1
+longdesc The caption package provides many ways to customise the
+longdesc captions in floating environments like figure and table, and
+longdesc cooperates with many other packages. Facilities include
+longdesc rotating captions, sideways captions, continued captions (for
+longdesc tables or figures that come in several parts). A list of
+longdesc compatibility notes, for other packages, is provided in the
+longdesc documentation. The package also provides the "caption outside
+longdesc float" facility, in the same way that simpler packages like
+longdesc capt-of do. The package supersedes caption2.
+containersize 31972
+containermd5 b45ad6d66ba8bb74c6476d3b879916bd
+doccontainersize 1679280
+doccontainermd5 9c85c03ff315e7f8030f93a9831fc875
+srccontainersize 196532
+srccontainermd5 708a081414e200dd9a95ddf3f85100fb
+runfiles size=51
+ texmf-dist/tex/latex/caption/bicaption.sty
+ texmf-dist/tex/latex/caption/caption.sty
+ texmf-dist/tex/latex/caption/caption2.sty
+ texmf-dist/tex/latex/caption/caption3.sty
+ texmf-dist/tex/latex/caption/ltcaption.sty
+ texmf-dist/tex/latex/caption/newfloat.sty
+ texmf-dist/tex/latex/caption/subcaption.sty
+ texmf-dist/tex/latex/caption/totalcount.sty
+catalogue-ctan /macros/latex/contrib/caption
+catalogue-date 2015-02-23 19:45:15 +0100
+catalogue-license lppl1.3

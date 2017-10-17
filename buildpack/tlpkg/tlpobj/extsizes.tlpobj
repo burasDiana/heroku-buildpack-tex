@@ -1,0 +1,29 @@
+name extsizes
+category Package
+revision 17263
+shortdesc Extend the standard classes' size options.
+relocated 1
+longdesc Provides classes extarticle, extreport, extletter, extbook and
+longdesc extproc which provide for documents with a base font size from
+longdesc 8-20pt.
+containersize 11608
+containermd5 b826acf049cd521c1d8b48b9560c1590
+doccontainersize 195100
+doccontainermd5 1551292f3b270026600df2398ce3721d
+runfiles size=35
+ texmf-dist/tex/latex/extsizes/autopagewidth.sty
+ texmf-dist/tex/latex/extsizes/extarticle.cls
+ texmf-dist/tex/latex/extsizes/extbook.cls
+ texmf-dist/tex/latex/extsizes/extletter.cls
+ texmf-dist/tex/latex/extsizes/extproc.cls
+ texmf-dist/tex/latex/extsizes/extreport.cls
+ texmf-dist/tex/latex/extsizes/extsizes.sty
+ texmf-dist/tex/latex/extsizes/size14.clo
+ texmf-dist/tex/latex/extsizes/size17.clo
+ texmf-dist/tex/latex/extsizes/size20.clo
+ texmf-dist/tex/latex/extsizes/size8.clo
+ texmf-dist/tex/latex/extsizes/size9.clo
+catalogue-ctan /macros/latex/contrib/extsizes
+catalogue-date 2013-10-31 12:53:24 +0100
+catalogue-license lppl
+catalogue-version 1.4a

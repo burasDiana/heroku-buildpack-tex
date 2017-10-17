@@ -1,0 +1,19 @@
+name ptext
+category Package
+revision 30171
+shortdesc A 'lipsum' for Persian.
+relocated 1
+longdesc The package provides lipsum-like facilities for the Persian
+longdesc language. The source of the filling text is the Persian epic
+longdesc "the Shanameh" (100 paragraphs are used.) The package needs to
+longdesc be run under XeLaTeX.
+containersize 21712
+containermd5 9a4e6747940373bf2668ce7e9811772e
+doccontainersize 56204
+doccontainermd5 67e598540d1bdfa9fa09117dd0f62254
+runfiles size=22
+ texmf-dist/tex/xelatex/ptext/ptext.sty
+catalogue-ctan /macros/xetex/latex/ptext
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl1.2
+catalogue-version 1.1

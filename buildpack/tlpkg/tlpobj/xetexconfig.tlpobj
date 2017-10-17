@@ -1,0 +1,12 @@
+name xetexconfig
+category Package
+revision 34727
+shortdesc Configuration files for XeTeX.
+relocated 1
+longdesc unicode-letters, and special crop.cfg and hyperref.cfg for
+longdesc XeTeX.
+containersize 33284
+containermd5 5de30952826e3e2c5f1b74b97a13b3d4
+runfiles size=226
+ texmf-dist/tex/generic/xetexconfig/unicode-letters.tex
+ texmf-dist/tex/xelatex/xetexconfig/crop.cfg

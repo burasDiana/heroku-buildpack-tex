@@ -1,0 +1,37 @@
+name breqn
+category Package
+revision 35027
+shortdesc Automatic line breaking of displayed equations.
+relocated 1
+longdesc The package provides solutions to a number of common
+longdesc difficulties in writing displayed equations and getting high-
+longdesc quality output. For example, it is a well-known inconvenience
+longdesc that if an equation must be broken into more than one line,
+longdesc 'left...right' constructs cannot span lines. The breqn package
+longdesc makes them work as one would expect whether or not there is an
+longdesc intervening line break. The single most ambitious goal of the
+longdesc package, however, is to support automatic linebreaking of
+longdesc displayed equations. Such linebreaking cannot be done without
+longdesc substantial changes under the hood in the way formulae are
+longdesc processed; the code must be watched carefully, keeping an eye
+longdesc on possible glitches. The bundle also contains the flexisym and
+longdesc mathstyle packages, which are both designated as support for
+longdesc breqn.
+containersize 24152
+containermd5 c8d96e49b0cd415ca1246a5ec889e853
+doccontainersize 1079744
+doccontainermd5 1cf0cb9cbb238b1f9965aeb0bac63105
+srccontainersize 80040
+srccontainermd5 d5aae5ef06209af6d34b8fcb31cc6959
+runfiles size=42
+ texmf-dist/tex/latex/breqn/breqn.sty
+ texmf-dist/tex/latex/breqn/cmbase.sym
+ texmf-dist/tex/latex/breqn/flexisym.sty
+ texmf-dist/tex/latex/breqn/mathpazo.sym
+ texmf-dist/tex/latex/breqn/mathptmx.sym
+ texmf-dist/tex/latex/breqn/mathstyle.sty
+ texmf-dist/tex/latex/breqn/msabm.sym
+catalogue-ctan /macros/latex/contrib/breqn
+catalogue-date 2014-08-20 12:40:46 +0200
+catalogue-license lppl1.3
+catalogue-version 0.98c

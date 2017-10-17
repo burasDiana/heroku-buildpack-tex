@@ -1,0 +1,35 @@
+name xetex-itrans
+category Package
+revision 35088
+shortdesc Itrans input maps for use with XeLaTeX.
+relocated 1
+longdesc The package provides maps for use with XeLaTeX with coding done
+longdesc using itrans. Fontspec maps are provided for Devanagari
+longdesc (Sanskrit), for Sanskrit in Kannada and for Kannada itself.
+containersize 24616
+containermd5 156a462fcab345a7fe42c93799fb3792
+doccontainersize 21092
+doccontainermd5 221749bae58eccd0c696ef309aa524ff
+runfiles size=29
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/brh-kan.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-dvn.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-dvn.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-iast.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-iast.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-kan.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-kan.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sankan.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sankan.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-santel.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-santel.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sdvn.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-sdvn.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tamil.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tamil.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tel.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-itrans/itrans-tel.tec
+catalogue-ctan /macros/xetex/generic/itrans
+catalogue-date 2014-09-01 15:13:45 +0200
+catalogue-license lppl1.3
+catalogue-version 4.2

@@ -1,0 +1,1734 @@
+Automated TeX Live installation using profile: /tmp/tmp.YUw3CXyPoX
+Loading http://ctan.mines-albi.fr/tlpkg/texlive.tlpdb
+First attempt for net installation failed;
+  repository url does not contain "tlnet",
+  retrying with "/systems/texlive/tlnet" appended.
+Loading http://ctan.mines-albi.fr/systems/texlive/tlnet/tlpkg/texlive.tlpdb
+Installing TeX Live 2015 from: http://ctan.mines-albi.fr/systems/texlive/tlnet
+Platform: x86_64-linux => 'GNU/Linux on x86_64'
+Distribution: net  (downloading)
+Using URL: http://ctan.mines-albi.fr
+Directory for temporary files: /tmp
+Installer revision: 37482
+Database revision: 37579
+Settings:
+  TEXDIR: "/tmp/tmp.hwCU44a4DA"
+  TEXMFCONFIG: "$TEXMFSYSCONFIG"
+  TEXMFHOME: "$TEXMFLOCAL"
+  TEXMFLOCAL: "/tmp/tmp.hwCU44a4DA/texmf-local"
+  TEXMFSYSCONFIG: "/tmp/tmp.hwCU44a4DA/texmf-config"
+  TEXMFSYSVAR: "/tmp/tmp.hwCU44a4DA/texmf-var"
+  TEXMFVAR: "/tmp"
+  binary_alpha-linux: "0"
+  binary_amd64-freebsd: "0"
+  binary_amd64-netbsd: "0"
+  binary_armel-linux: "0"
+  binary_armhf-linux: "0"
+  binary_i386-cygwin: "0"
+  binary_i386-freebsd: "0"
+  binary_i386-linux: "0"
+  binary_i386-netbsd: "0"
+  binary_i386-solaris: "0"
+  binary_mipsel-linux: "0"
+  binary_powerpc-linux: "0"
+  binary_sparc-solaris: "0"
+  binary_universal-darwin: "0"
+  binary_win32: "0"
+  binary_x86_64-cygwin: "0"
+  binary_x86_64-darwin: "0"
+  binary_x86_64-linux: "1"
+  binary_x86_64-solaris: "0"
+  collection-basic: "1"
+  collection-bibtexextra: "0"
+  collection-binextra: "0"
+  collection-context: "0"
+  collection-fontsextra: "0"
+  collection-fontsrecommended: "0"
+  collection-fontutils: "0"
+  collection-formatsextra: "0"
+  collection-games: "0"
+  collection-genericextra: "0"
+  collection-genericrecommended: "0"
+  collection-htmlxml: "0"
+  collection-humanities: "0"
+  collection-langafrican: "0"
+  collection-langarabic: "0"
+  collection-langchinese: "0"
+  collection-langcjk: "0"
+  collection-langcyrillic: "0"
+  collection-langczechslovak: "0"
+  collection-langenglish: "0"
+  collection-langeuropean: "0"
+  collection-langfrench: "0"
+  collection-langgerman: "0"
+  collection-langgreek: "0"
+  collection-langindic: "0"
+  collection-langitalian: "0"
+  collection-langjapanese: "0"
+  collection-langkorean: "0"
+  collection-langother: "0"
+  collection-langpolish: "0"
+  collection-langportuguese: "0"
+  collection-langspanish: "0"
+  collection-latex: "1"
+  collection-latexextra: "0"
+  collection-latexrecommended: "1"
+  collection-luatex: "0"
+  collection-mathextra: "0"
+  collection-metapost: "0"
+  collection-music: "0"
+  collection-omega: "0"
+  collection-pictures: "0"
+  collection-plainextra: "0"
+  collection-pstricks: "0"
+  collection-publishers: "0"
+  collection-science: "0"
+  collection-texworks: "0"
+  collection-wintools: "0"
+  collection-xetex: "1"
+  doc_splitting_supported: "1"
+  in_place: "0"
+  inst_platform: "x86_64-linux"
+  n_collections_available: "48"
+  n_collections_selected: "47"
+  n_systems_available: "19"
+  n_systems_selected: "1"
+  option_adjustrepo: "1"
+  option_autobackup: "1"
+  option_backupdir: "tlpkg/backups"
+  option_desktop_integration: "1"
+  option_doc: "0"
+  option_file_assocs: ""
+  option_fmt: "1"
+  option_letter: "0"
+  option_menu_integration: ""
+  option_path: "0"
+  option_post_code: "1"
+  option_src: "0"
+  option_sys_bin: "/usr/local/bin"
+  option_sys_info: "/usr/local/share/info"
+  option_sys_man: "/usr/local/share/man"
+  option_w32_multi_user: "1"
+  option_write18_restricted: "1"
+  portable: "1"
+  selected_scheme: "scheme-custom"
+  src_splitting_supported: "1"
+  this_platform: "x86_64-linux"
+  total_size: "0"
+Installing to: /tmp/tmp.hwCU44a4DA
+Installing [001/182, time/total: ??:??/??:??]: ae [56k]
+Installing [002/182, time/total: 00:00/00:00]: amscls [32k]
+Installing [003/182, time/total: 00:00/00:00]: amsfonts [3542k]
+Installing [004/182, time/total: 00:02/00:26]: amsmath [29k]
+Installing [005/182, time/total: 00:02/00:26]: anysize [2k]
+Installing [006/182, time/total: 00:02/00:26]: arabxetex [259k]
+Installing [007/182, time/total: 00:02/00:25]: babel [23k]
+Installing [008/182, time/total: 00:03/00:37]: babel-english [3k]
+Installing [009/182, time/total: 00:03/00:37]: babelbib [26k]
+Installing [010/182, time/total: 00:03/00:37]: beamer [184k]
+Installing [011/182, time/total: 00:03/00:35]: bibtex [13k]
+Installing [012/182, time/total: 00:03/00:35]: bibtex.x86_64-linux [70k]
+Installing [013/182, time/total: 00:03/00:34]: bidi-atbegshi [2k]
+Installing [014/182, time/total: 00:03/00:34]: bidicontour [2k]
+Installing [015/182, time/total: 00:03/00:34]: bidipagegrid [4k]
+Installing [016/182, time/total: 00:03/00:34]: bidipresentation [28k]
+Installing [017/182, time/total: 00:03/00:34]: bidishadowtext [2k]
+Installing [018/182, time/total: 00:03/00:34]: booktabs [3k]
+Installing [019/182, time/total: 00:03/00:34]: breqn [24k]
+Installing [020/182, time/total: 00:03/00:34]: caption [32k]
+Installing [021/182, time/total: 00:03/00:33]: carlisle [12k]
+Installing [022/182, time/total: 00:03/00:33]: cite [20k]
+Installing [023/182, time/total: 00:04/00:45]: cm [234k]
+Installing [024/182, time/total: 00:04/00:42]: cmap [6k]
+Installing [025/182, time/total: 00:04/00:42]: collection-basic [1k]
+Installing [026/182, time/total: 00:04/00:42]: collection-latex [1k]
+Installing [027/182, time/total: 00:04/00:42]: collection-latexrecommended [1k]
+Installing [028/182, time/total: 00:04/00:42]: collection-xetex [1k]
+Installing [029/182, time/total: 00:04/00:42]: colortbl [4k]
+Installing [030/182, time/total: 00:04/00:42]: crop [5k]
+Installing [031/182, time/total: 00:04/00:42]: ctable [4k]
+Installing [032/182, time/total: 00:04/00:42]: dvipdfmx [27k]
+Installing [033/182, time/total: 00:04/00:42]: dvipdfmx-def [4k]
+Installing [034/182, time/total: 00:04/00:42]: dvipdfmx.x86_64-linux [370k]
+Installing [035/182, time/total: 00:04/00:39]: dvips [155k]
+Installing [036/182, time/total: 00:05/00:47]: dvips.x86_64-linux [138k]
+Installing [037/182, time/total: 00:05/00:46]: enctex [24k]
+Installing [038/182, time/total: 00:05/00:46]: eso-pic [4k]
+Installing [039/182, time/total: 00:05/00:45]: etex [12k]
+Installing [040/182, time/total: 00:05/00:45]: etex-pkg [6k]
+Installing [041/182, time/total: 00:05/00:45]: etoolbox [8k]
+Installing [042/182, time/total: 00:05/00:45]: euenc [4k]
+Installing [043/182, time/total: 00:05/00:45]: euler [4k]
+Installing [044/182, time/total: 00:05/00:45]: extsizes [12k]
+Installing [045/182, time/total: 00:05/00:45]: fancybox [8k]
+Installing [046/182, time/total: 00:05/00:45]: fancyhdr [9k]
+Installing [047/182, time/total: 00:05/00:45]: fancyref [4k]
+Installing [048/182, time/total: 00:05/00:45]: fancyvrb [12k]
+Installing [049/182, time/total: 00:05/00:45]: fix2col [3k]
+Installing [050/182, time/total: 00:05/00:45]: fixlatvian [3k]
+Installing [051/182, time/total: 00:05/00:45]: float [3k]
+Installing [052/182, time/total: 00:05/00:45]: fontbook [2k]
+Installing [053/182, time/total: 00:05/00:45]: fontspec [20k]
+Installing [054/182, time/total: 00:06/00:54]: fontwrap [13k]
+Installing [055/182, time/total: 00:06/00:54]: fp [19k]
+Installing [056/182, time/total: 00:06/00:53]: geometry [9k]
+Installing [057/182, time/total: 00:06/00:53]: glyphlist [25k]
+Installing [058/182, time/total: 00:06/00:53]: graphics [13k]
+Installing [059/182, time/total: 00:06/00:53]: gsftopk [4k]
+Installing [060/182, time/total: 00:06/00:53]: gsftopk.x86_64-linux [39k]
+Installing [061/182, time/total: 00:06/00:53]: hyperref [105k]
+Installing [062/182, time/total: 00:06/00:52]: hyph-utf8 [1000k]
+Installing [063/182, time/total: 00:07/00:51]: hyphen-base [22k]
+Installing [064/182, time/total: 00:07/00:51]: ifluatex [3k]
+Installing [065/182, time/total: 00:07/00:51]: iftex [2k]
+Installing [066/182, time/total: 00:07/00:51]: ifxetex [2k]
+Installing [067/182, time/total: 00:07/00:51]: index [11k]
+Installing [068/182, time/total: 00:07/00:51]: interchar [6k]
+Installing [069/182, time/total: 00:07/00:51]: jknapltx [9k]
+Installing [070/182, time/total: 00:07/00:51]: kastrup [2k]
+Installing [071/182, time/total: 00:07/00:51]: knuth-lib [30k]
+Installing [072/182, time/total: 00:07/00:50]: knuth-local [23k]
+Installing [073/182, time/total: 00:07/00:50]: koma-script [11109k]
+Installing [074/182, time/total: 00:12/00:32]: kpathsea [30k]
+Installing [075/182, time/total: 00:12/00:32]: kpathsea.x86_64-linux [45k]
+Installing [076/182, time/total: 00:12/00:32]: l3experimental [38k]
+Installing [077/182, time/total: 00:12/00:32]: l3kernel [98k]
+Installing [078/182, time/total: 00:12/00:32]: l3packages [17k]
+Installing [079/182, time/total: 00:12/00:32]: latex [278k]
+Installing [080/182, time/total: 00:13/00:34]: latex-bin [1k]
+Installing [081/182, time/total: 00:13/00:34]: latex-bin.x86_64-linux [1k]
+Installing [082/182, time/total: 00:13/00:34]: latex-fonts [18k]
+Installing [083/182, time/total: 00:13/00:34]: latexconfig [7k]
+Installing [084/182, time/total: 00:13/00:34]: lineno [61k]
+Installing [085/182, time/total: 00:13/00:34]: listings [117k]
+Installing [086/182, time/total: 00:13/00:34]: lm [11665k]
+Installing [087/182, time/total: 00:18/00:29]: ltxmisc [16k]
+Installing [088/182, time/total: 00:18/00:29]: lua-alt-getopt [2k]
+Installing [089/182, time/total: 00:18/00:29]: luatex [13k]
+Installing [090/182, time/total: 00:19/00:30]: luatex.x86_64-linux [4786k]
+Installing [091/182, time/total: 00:21/00:29]: makecmds [2k]
+Installing [092/182, time/total: 00:21/00:29]: makeindex [5k]
+Installing [093/182, time/total: 00:21/00:29]: makeindex.x86_64-linux [46k]
+Installing [094/182, time/total: 00:21/00:29]: mathspec [10k]
+Installing [095/182, time/total: 00:21/00:29]: mathtools [19k]
+Installing [096/182, time/total: 00:22/00:30]: mdwtools [19k]
+Installing [097/182, time/total: 00:22/00:30]: memoir [73k]
+Installing [098/182, time/total: 00:22/00:30]: metafont [33k]
+Installing [099/182, time/total: 00:22/00:30]: metafont.x86_64-linux [181k]
+Installing [100/182, time/total: 00:22/00:30]: metalogo [3k]
+Installing [101/182, time/total: 00:22/00:30]: mflogo [2k]
+Installing [102/182, time/total: 00:22/00:30]: mfnfss [2k]
+Installing [103/182, time/total: 00:22/00:30]: mfware [4k]
+Installing [104/182, time/total: 00:22/00:30]: mfware.x86_64-linux [117k]
+Installing [105/182, time/total: 00:22/00:30]: microtype [42k]
+Installing [106/182, time/total: 00:23/00:31]: mptopdf [38k]
+Installing [107/182, time/total: 00:23/00:31]: mptopdf.x86_64-linux [1k]
+Installing [108/182, time/total: 00:23/00:31]: ms [6k]
+Installing [109/182, time/total: 00:23/00:31]: natbib [17k]
+Installing [110/182, time/total: 00:23/00:31]: ntgclass [17k]
+Installing [111/182, time/total: 00:23/00:31]: oberdiek [222k]
+Installing [112/182, time/total: 00:23/00:31]: parskip [2k]
+Installing [113/182, time/total: 00:23/00:31]: pdfpages [13k]
+Installing [114/182, time/total: 00:23/00:31]: pdftex [154k]
+Installing [115/182, time/total: 00:23/00:31]: pdftex-def [14k]
+Installing [116/182, time/total: 00:23/00:31]: pdftex.x86_64-linux [747k]
+Installing [117/182, time/total: 00:24/00:31]: pgf [586k]
+Installing [118/182, time/total: 00:24/00:31]: philokalia [75k]
+Installing [119/182, time/total: 00:24/00:31]: plain [152k]
+Installing [120/182, time/total: 00:25/00:32]: polyglossia [61k]
+Installing [121/182, time/total: 00:25/00:32]: powerdot [26k]
+Installing [122/182, time/total: 00:25/00:32]: psfrag [5k]
+Installing [123/182, time/total: 00:25/00:32]: pslatex [6k]
+Installing [124/182, time/total: 00:25/00:32]: psnfss [12k]
+Installing [125/182, time/total: 00:25/00:32]: pspicture [2k]
+Installing [126/182, time/total: 00:25/00:32]: ptext [22k]
+Installing [127/182, time/total: 00:25/00:32]: rcs [13k]
+Installing [128/182, time/total: 00:25/00:32]: realscripts [2k]
+Installing [129/182, time/total: 00:25/00:32]: rotating [3k]
+Installing [130/182, time/total: 00:25/00:32]: sansmath [4k]
+Installing [131/182, time/total: 00:25/00:32]: section [10k]
+Installing [132/182, time/total: 00:25/00:32]: seminar [30k]
+Installing [133/182, time/total: 00:26/00:33]: sepnum [3k]
+Installing [134/182, time/total: 00:26/00:33]: setspace [8k]
+Installing [135/182, time/total: 00:26/00:33]: subfig [7k]
+Installing [136/182, time/total: 00:26/00:33]: tetex [56k]
+Installing [137/182, time/total: 00:26/00:33]: tetex.x86_64-linux [1k]
+Installing [138/182, time/total: 00:26/00:33]: tex [1k]
+Installing [139/182, time/total: 00:26/00:33]: tex.x86_64-linux [168k]
+Installing [140/182, time/total: 00:26/00:33]: texconfig [13k]
+Installing [141/182, time/total: 00:26/00:33]: texconfig.x86_64-linux [1k]
+Installing [142/182, time/total: 00:26/00:33]: texlive-common [1k]
+Installing [143/182, time/total: 00:26/00:33]: texlive-docindex [108k]
+Installing [144/182, time/total: 00:26/00:33]: texlive-en [1k]
+Installing [145/182, time/total: 00:27/00:34]: texlive-msg-translations [110k]
+Installing [146/182, time/total: 00:27/00:34]: texlive-scripts [64k]
+Installing [147/182, time/total: 00:27/00:34]: texlive-scripts.x86_64-linux [1k]
+Installing [148/182, time/total: 00:27/00:34]: texlive.infra [207k]
+Installing [149/182, time/total: 00:27/00:34]: texlive.infra.x86_64-linux [91k]
+Installing [150/182, time/total: 00:27/00:34]: textcase [2k]
+Installing [151/182, time/total: 00:27/00:34]: thumbpdf [19k]
+Installing [152/182, time/total: 00:27/00:34]: thumbpdf.x86_64-linux [1k]
+Installing [153/182, time/total: 00:27/00:34]: tipa [2809k]
+Installing [154/182, time/total: 00:29/00:34]: tools [38k]
+Installing [155/182, time/total: 00:29/00:34]: typehtml [7k]
+Installing [156/182, time/total: 00:29/00:34]: ucharclasses [7k]
+Installing [157/182, time/total: 00:29/00:34]: underscore [5k]
+Installing [158/182, time/total: 00:29/00:34]: unisugar [3k]
+Installing [159/182, time/total: 00:29/00:34]: url [6k]
+Installing [160/182, time/total: 00:29/00:34]: xcolor [17k]
+Installing [161/182, time/total: 00:30/00:35]: xdvi [7k]
+Installing [162/182, time/total: 00:30/00:35]: xdvi.x86_64-linux [482k]
+Installing [163/182, time/total: 00:30/00:34]: xecjk [123k]
+Installing [164/182, time/total: 00:30/00:34]: xecolor [3k]
+Installing [165/182, time/total: 00:30/00:34]: xecyr [4k]
+Installing [166/182, time/total: 00:30/00:34]: xeindex [2k]
+Installing [167/182, time/total: 00:30/00:34]: xepersian [39k]
+Installing [168/182, time/total: 00:30/00:34]: xesearch [6k]
+Installing [169/182, time/total: 00:30/00:34]: xespotcolor [2k]
+Installing [170/182, time/total: 00:31/00:35]: xetex [46k]
+Installing [171/182, time/total: 00:31/00:35]: xetex-def [6k]
+Installing [172/182, time/total: 00:31/00:35]: xetex-itrans [25k]
+Installing [173/182, time/total: 00:31/00:35]: xetex-pstricks [1k]
+Installing [174/182, time/total: 00:31/00:35]: xetex-tibetan [7k]
+Installing [175/182, time/total: 00:31/00:35]: xetex.x86_64-linux [6549k]
+Installing [176/182, time/total: 00:34/00:34]: xetexconfig [33k]
+Installing [177/182, time/total: 00:34/00:34]: xetexfontinfo [3k]
+Installing [178/182, time/total: 00:34/00:34]: xetexko [56k]
+Installing [179/182, time/total: 00:34/00:34]: xevlna [2k]
+Installing [180/182, time/total: 00:35/00:35]: xkeyval [13k]
+Installing [181/182, time/total: 00:35/00:35]: xltxtra [3k]
+Installing [182/182, time/total: 00:35/00:35]: xunicode [26k]
+Time used for installing the packages: 00:35
+running mktexlsr /tmp/tmp.hwCU44a4DA/texmf-dist ...
+writing fmtutil.cnf to /tmp/tmp.hwCU44a4DA/texmf-dist/web2c/fmtutil.cnf
+writing updmap.cfg to /tmp/tmp.hwCU44a4DA/texmf-dist/web2c/updmap.cfg
+writing language.dat to /tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.dat
+writing language.def to /tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.def
+writing language.dat.lua to /tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.dat.lua
+running mktexlsr /tmp/tmp.hwCU44a4DA/texmf-var /tmp/tmp.hwCU44a4DA/texmf-config /tmp/tmp.hwCU44a4DA/texmf-dist ...
+running updmap-sys --nohash ...done
+updmap will read the following updmap.cfg files (in precedence order):
+  /tmp/tmp.hwCU44a4DA/texmf-dist/web2c/updmap.cfg
+updmap may write changes to the following updmap.cfg file:
+  /tmp/tmp.hwCU44a4DA/texmf-config/web2c/updmap.cfg
+dvips output dir: "/tmp/tmp.hwCU44a4DA/texmf-var/fonts/map/dvips/updmap"
+pdftex output dir: "/tmp/tmp.hwCU44a4DA/texmf-var/fonts/map/pdftex/updmap"
+dvipdfmx output dir: "/tmp/tmp.hwCU44a4DA/texmf-var/fonts/map/dvipdfmx/updmap"
+
+updmap is creating new map files
+using the following configuration:
+  LW35 font names                  : URWkb (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/updmap.cfg)
+  prefer outlines                  : true (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/updmap.cfg)
+  texhash enabled                  : false
+  download standard fonts (dvips)  : true (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/updmap.cfg)
+  download standard fonts (pdftex) : true (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/updmap.cfg)
+  kanjiEmbed replacement string    : noEmbed (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/updmap.cfg)
+  kanjiVariant replacement string  :  (default)
+  create a mapfile for pxdvi       : false (default)
+
+Scanning for LW35 support files  [  3 files]
+Scanning for MixedMap entries    [  7 files]
+Scanning for KanjiMap entries    [  0 files]
+Scanning for Map entries         [  8 files]
+
+Generating output for dvipdfmx...
+Generating output for ps2pk...
+Generating output for dvips...
+Generating output for pdftex...
+
+Files generated:
+  /tmp/tmp.hwCU44a4DA/texmf-var/fonts/map/dvips/updmap:
+       15788 2015-06-18 11:57:08 builtin35.map
+       21261 2015-06-18 11:57:08 download35.map
+       72132 2015-06-18 11:57:08 psfonts_pk.map
+       78298 2015-06-18 11:57:08 psfonts_t1.map
+       78293 2015-06-18 11:57:08 ps2pk.map
+          14 2015-06-18 11:57:08 psfonts.map -> psfonts_t1.map
+  /tmp/tmp.hwCU44a4DA/texmf-var/fonts/map/pdftex/updmap:
+       78300 2015-06-18 11:57:08 pdftex_dl14.map
+       76635 2015-06-18 11:57:08 pdftex_ndl14.map
+          15 2015-06-18 11:57:08 pdftex.map -> pdftex_dl14.map
+  /tmp/tmp.hwCU44a4DA/texmf-var/fonts/map/dvipdfmx/updmap:
+         311 2015-06-18 11:57:08 kanjix.map
+
+WARNING: updmap has found mismatched files!
+
+The following files have been generated as listed above,
+but will not be found because overriding files exist, listed below.
+ builtin35.map: /tmp/fonts/map/dvips/updmap/builtin35.map
+ download35.map: /tmp/fonts/map/dvips/updmap/download35.map
+ kanjix.map: /tmp/fonts/map/dvipdfmx/updmap/kanjix.map
+ pdftex.map: /tmp/fonts/map/pdftex/updmap/pdftex.map
+ pdftex_dl14.map: /tmp/fonts/map/pdftex/updmap/pdftex_dl14.map
+ pdftex_ndl14.map: /tmp/fonts/map/pdftex/updmap/pdftex_ndl14.map
+ ps2pk.map: /tmp/fonts/map/dvips/updmap/ps2pk.map
+ psfonts.map: /tmp/fonts/map/dvips/updmap/psfonts.map
+ psfonts_pk.map: /tmp/fonts/map/dvips/updmap/psfonts_pk.map
+ psfonts_t1.map: /tmp/fonts/map/dvips/updmap/psfonts_t1.map
+(Run updmap --help for full documentation of updmap.)
+
+Transcript written on "/tmp/tmp.hwCU44a4DA/texmf-var/web2c/updmap.log".
+re-running mktexlsr /tmp/tmp.hwCU44a4DA/texmf-var /tmp/tmp.hwCU44a4DA/texmf-config ...
+pre-generating all format files, be patient...
+running fmtutil-sys --no-error-if-no-engine=luajittex --all ...done
+fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+fmtutil:   /tmp/tmp.hwCU44a4DA/texmf-dist/web2c/fmtutil.cnf
+fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+fmtutil:   /tmp/tmp.hwCU44a4DA/texmf-config/web2c/fmtutil.cnf
+fmtutil: running `luajittex -ini  -jobname=luajittex -progname=luajittex luatex.ini' ...
+This is LuajitTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (INITEX)
+ restricted \write18 enabled.
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/luatex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/luatexiniconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/luatex-unicode-letters.tex
+loading Unicode properties)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/pdfetex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/pdftexconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/luatex/hyph-utf8/etex.src
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/base/plain.tex
+Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+macros, math definitions, output routines, hyphenation
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex
+[skipping from \patterns to end-of-file...]))
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etexdefs.lib
+Skipping module "grouptypes"; Loading module "interactionmodes";
+Skipping module "nodetypes"; Skipping module "iftypes";)
+(/tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.def
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex))
+Augmenting the Plain TeX definitions: \tracingall;
+Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+register allocation; extended register allocation; 
+Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/pdftexmagfix.tex)))
+Beginning to dump on file luajittex.fmt
+ (format=luajittex 2015.6.18)
+3114 strings using 9636 bytes
+68807 memory locations dumped; current usage is 103&7731
+1712 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\preloaded=cmr9
+\font\preloaded=cmr8
+\font\sevenrm=cmr7
+\font\preloaded=cmr6
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\preloaded=cmmi9
+\font\preloaded=cmmi8
+\font\seveni=cmmi7
+\font\preloaded=cmmi6
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\preloaded=cmsy9
+\font\preloaded=cmsy8
+\font\sevensy=cmsy7
+\font\preloaded=cmsy6
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\preloaded=cmss10
+\font\preloaded=cmssq8
+\font\preloaded=cmssi10
+\font\preloaded=cmssqi8
+\font\tenbf=cmbx10
+\font\preloaded=cmbx9
+\font\preloaded=cmbx8
+\font\sevenbf=cmbx7
+\font\preloaded=cmbx6
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\preloaded=cmtt9
+\font\preloaded=cmtt8
+\font\preloaded=cmsltt10
+\font\tensl=cmsl10
+\font\preloaded=cmsl9
+\font\preloaded=cmsl8
+\font\tenit=cmti10
+\font\preloaded=cmti9
+\font\preloaded=cmti8
+\font\preloaded=cmti7
+\font\preloaded=cmu10
+\font\preloaded=cmmib10
+\font\preloaded=cmbsy10
+\font\preloaded=cmcsc10
+\font\preloaded=cmssbx10
+\font\preloaded=cmdunh10
+\font\preloaded=cmr7 at 14.51799pt
+\font\preloaded=cmtt10 at 14.4pt
+\font\preloaded=cmssbx10 at 14.4pt
+\font\preloaded=manfnt
+50 preloaded fonts
+0 words of pdf memory
+0 indirect objects
+No pages of output.
+Transcript written on luajittex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/luajittex/luajittex.fmt installed.
+fmtutil: running `pdftex -ini  -jobname=pdftex -progname=pdftex -translate-file=cp227.tcx *pdfetex.ini' ...
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (INITEX)
+ restricted \write18 enabled.
+ (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/cp227.tcx)
+entering extended mode
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/pdfetex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/pdftexconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etex.src
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/base/plain.tex
+Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+macros, math definitions, output routines, hyphenation
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex
+[skipping from \patterns to end-of-file...]))
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etexdefs.lib
+Skipping module "grouptypes"; Loading module "interactionmodes";
+Skipping module "nodetypes"; Skipping module "iftypes";)
+(/tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.def
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex))
+Augmenting the Plain TeX definitions: \tracingall;
+Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+register allocation; extended register allocation; 
+Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/pdftexmagfix.tex) )
+Beginning to dump on file pdftex.fmt
+ (preloaded format=pdftex 2015.6.18)
+2890 strings of total length 43127
+7960 memory locations dumped; current usage is 203&7321
+1260 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\preloaded=cmr9
+\font\preloaded=cmr8
+\font\sevenrm=cmr7
+\font\preloaded=cmr6
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\preloaded=cmmi9
+\font\preloaded=cmmi8
+\font\seveni=cmmi7
+\font\preloaded=cmmi6
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\preloaded=cmsy9
+\font\preloaded=cmsy8
+\font\sevensy=cmsy7
+\font\preloaded=cmsy6
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\preloaded=cmss10
+\font\preloaded=cmssq8
+\font\preloaded=cmssi10
+\font\preloaded=cmssqi8
+\font\tenbf=cmbx10
+\font\preloaded=cmbx9
+\font\preloaded=cmbx8
+\font\sevenbf=cmbx7
+\font\preloaded=cmbx6
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\preloaded=cmtt9
+\font\preloaded=cmtt8
+\font\preloaded=cmsltt10
+\font\tensl=cmsl10
+\font\preloaded=cmsl9
+\font\preloaded=cmsl8
+\font\tenit=cmti10
+\font\preloaded=cmti9
+\font\preloaded=cmti8
+\font\preloaded=cmti7
+\font\preloaded=cmu10
+\font\preloaded=cmmib10
+\font\preloaded=cmbsy10
+\font\preloaded=cmcsc10
+\font\preloaded=cmssbx10
+\font\preloaded=cmdunh10
+\font\preloaded=cmr7 at 14.51799pt
+\font\preloaded=cmtt10 at 14.4pt
+\font\preloaded=cmssbx10 at 14.4pt
+\font\preloaded=manfnt
+14787 words of font info for 50 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 6075 has 181 ops out of 35111
+  181 for language 0
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.
+Transcript written on pdftex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/pdftex/pdftex.fmt installed.
+fmtutil: running `tex -ini  -jobname=tex -progname=tex tex.ini' ...
+This is TeX, Version 3.14159265 (TeX Live 2015) (INITEX)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/tex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/base/plain.tex
+Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+macros, math definitions, output routines, hyphenation
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex)) )
+Beginning to dump on file tex.fmt
+ (preloaded format=tex 2015.6.18)
+2027 strings of total length 29305
+4990 memory locations dumped; current usage is 110&4877
+926 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\preloaded=cmr9
+\font\preloaded=cmr8
+\font\sevenrm=cmr7
+\font\preloaded=cmr6
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\preloaded=cmmi9
+\font\preloaded=cmmi8
+\font\seveni=cmmi7
+\font\preloaded=cmmi6
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\preloaded=cmsy9
+\font\preloaded=cmsy8
+\font\sevensy=cmsy7
+\font\preloaded=cmsy6
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\preloaded=cmss10
+\font\preloaded=cmssq8
+\font\preloaded=cmssi10
+\font\preloaded=cmssqi8
+\font\tenbf=cmbx10
+\font\preloaded=cmbx9
+\font\preloaded=cmbx8
+\font\sevenbf=cmbx7
+\font\preloaded=cmbx6
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\preloaded=cmtt9
+\font\preloaded=cmtt8
+\font\preloaded=cmsltt10
+\font\tensl=cmsl10
+\font\preloaded=cmsl9
+\font\preloaded=cmsl8
+\font\tenit=cmti10
+\font\preloaded=cmti9
+\font\preloaded=cmti8
+\font\preloaded=cmti7
+\font\preloaded=cmu10
+\font\preloaded=cmmib10
+\font\preloaded=cmbsy10
+\font\preloaded=cmcsc10
+\font\preloaded=cmssbx10
+\font\preloaded=cmdunh10
+\font\preloaded=cmr7 at 14.51799pt
+\font\preloaded=cmtt10 at 14.4pt
+\font\preloaded=cmssbx10 at 14.4pt
+\font\preloaded=manfnt
+14787 words of font info for 50 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 6075 has 181 ops out of 35111
+  181 for language 0
+No pages of output.
+Transcript written on tex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/tex/tex.fmt installed.
+fmtutil: running `luatex -ini  -jobname=luatex -progname=luatex luatex.ini' ...
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (INITEX)
+ restricted \write18 enabled.
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/luatex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/luatexiniconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/luatex-unicode-letters.tex
+loading Unicode properties)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/pdfetex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/pdftexconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/luatex/hyph-utf8/etex.src
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/base/plain.tex
+Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+macros, math definitions, output routines, hyphenation
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex
+[skipping from \patterns to end-of-file...]))
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etexdefs.lib
+Skipping module "grouptypes"; Loading module "interactionmodes";
+Skipping module "nodetypes"; Skipping module "iftypes";)
+(/tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.def
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex))
+Augmenting the Plain TeX definitions: \tracingall;
+Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+register allocation; extended register allocation; 
+Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/pdftexmagfix.tex)))
+Beginning to dump on file luatex.fmt
+ (format=luatex 2015.6.18)
+3114 strings using 9630 bytes
+68807 memory locations dumped; current usage is 103&7731
+1712 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\preloaded=cmr9
+\font\preloaded=cmr8
+\font\sevenrm=cmr7
+\font\preloaded=cmr6
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\preloaded=cmmi9
+\font\preloaded=cmmi8
+\font\seveni=cmmi7
+\font\preloaded=cmmi6
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\preloaded=cmsy9
+\font\preloaded=cmsy8
+\font\sevensy=cmsy7
+\font\preloaded=cmsy6
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\preloaded=cmss10
+\font\preloaded=cmssq8
+\font\preloaded=cmssi10
+\font\preloaded=cmssqi8
+\font\tenbf=cmbx10
+\font\preloaded=cmbx9
+\font\preloaded=cmbx8
+\font\sevenbf=cmbx7
+\font\preloaded=cmbx6
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\preloaded=cmtt9
+\font\preloaded=cmtt8
+\font\preloaded=cmsltt10
+\font\tensl=cmsl10
+\font\preloaded=cmsl9
+\font\preloaded=cmsl8
+\font\tenit=cmti10
+\font\preloaded=cmti9
+\font\preloaded=cmti8
+\font\preloaded=cmti7
+\font\preloaded=cmu10
+\font\preloaded=cmmib10
+\font\preloaded=cmbsy10
+\font\preloaded=cmcsc10
+\font\preloaded=cmssbx10
+\font\preloaded=cmdunh10
+\font\preloaded=cmr7 at 14.51799pt
+\font\preloaded=cmtt10 at 14.4pt
+\font\preloaded=cmssbx10 at 14.4pt
+\font\preloaded=manfnt
+50 preloaded fonts
+0 words of pdf memory
+0 indirect objects
+No pages of output.
+Transcript written on luatex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/luatex/luatex.fmt installed.
+fmtutil: running `xetex -ini  -jobname=xetex -progname=xetex -etex xetex.ini' ...
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (INITEX)
+ restricted \write18 enabled.
+entering extended mode
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/xetex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/unicode-letters.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etex.src
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/base/plain.tex
+Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+macros, math definitions, output routines, hyphenation
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex
+[skipping from \patterns to end-of-file...]))
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etexdefs.lib
+Skipping module "grouptypes"; Loading module "interactionmodes";
+Skipping module "nodetypes"; Skipping module "iftypes";)
+(/tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.def
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex))
+Augmenting the Plain TeX definitions: \tracingall;
+Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+register allocation; extended register allocation; 
+Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)
+ )
+Beginning to dump on file xetex.fmt
+ (preloaded format=xetex 2015.6.18)
+67742 strings of total length 36023
+8204 memory locations dumped; current usage is 320&7492
+1223 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\sevenrm=cmr7
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\seveni=cmmi7
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\sevensy=cmsy7
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\tenbf=cmbx10
+\font\sevenbf=cmbx7
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\tensl=cmsl10
+\font\tenit=cmti10
+4739 words of font info for 16 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 6076 has 181 ops out of 35111
+  181 for language 0
+No pages of output.
+Transcript written on xetex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/xetex/xetex.fmt installed.
+fmtutil: running `luatex -ini  -jobname=lualatex -progname=lualatex lualatex.ini' ...
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (INITEX)
+ restricted \write18 enabled.
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/latexconfig/lualatex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/pdftexconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/latex.ltx
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, compatibility for TeX 2,  parameters,
+LaTeX2e <2015/01/01>
+hacks, control, par, spacing, files, font encodings, lengths,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omsenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmss.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlcmm.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omscmsy.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omxcmex.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+environments, center, verbatim, math definitions, boxes, title, sectioning,
+contents, floats, footnotes, index, bibliography, output,
+ Unicode character data,
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/unicode-letters.def)
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/hyphen.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/luababel.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/switch.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+=================================
+Applying patch file ltpatch.ltx
+=================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ltpatch.ltx)
+))
+Beginning to dump on file lualatex.fmt
+ (format=lualatex 2015.6.18)
+5185 strings using 32355 bytes
+151841 memory locations dumped; current usage is 124&48103
+3740 multiletter control sequences
+\font\nullfont=nullfont
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+14 preloaded fonts
+0 words of pdf memory
+0 indirect objects
+No pages of output.
+Transcript written on lualatex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/luatex/lualatex.fmt installed.
+fmtutil: running `pdftex -ini  -jobname=pdflatex -progname=pdflatex -translate-file=cp227.tcx *pdflatex.ini' ...
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (INITEX)
+ restricted \write18 enabled.
+ (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/cp227.tcx)
+entering extended mode
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/latexconfig/pdflatex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/pdftexconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/latex.ltx
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, compatibility for TeX 2,  parameters,
+LaTeX2e <2015/01/01>
+hacks, control, par, spacing, files, font encodings, lengths,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omsenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmss.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlcmm.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omscmsy.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omxcmex.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+environments, center, verbatim, math definitions, boxes, title, sectioning,
+contents, floats, footnotes, index, bibliography, output,
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/hyphen.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/switch.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+=================================
+Applying patch file ltpatch.ltx
+=================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ltpatch.ltx)
+ ) )
+Beginning to dump on file pdflatex.fmt
+ (preloaded format=pdflatex 2015.6.18)
+4996 strings of total length 68721
+45331 memory locations dumped; current usage is 144&43447
+3340 multiletter control sequences
+\font\nullfont=nullfont
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+3633 words of font info for 14 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 6081 has 183 ops out of 35111
+  2 for language 1
+  181 for language 0
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.
+Transcript written on pdflatex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/pdftex/pdflatex.fmt installed.
+fmtutil: running `pdftex -ini  -jobname=etex -progname=etex -translate-file=cp227.tcx *etex.ini' ...
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (INITEX)
+ restricted \write18 enabled.
+ (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/cp227.tcx)
+entering extended mode
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/etex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etex.src
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/base/plain.tex
+Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+macros, math definitions, output routines, hyphenation
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex
+[skipping from \patterns to end-of-file...]))
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etexdefs.lib
+Skipping module "grouptypes"; Loading module "interactionmodes";
+Skipping module "nodetypes"; Skipping module "iftypes";)
+(/tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.def
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex))
+Augmenting the Plain TeX definitions: \tracingall;
+Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+register allocation; extended register allocation; 
+Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,) )
+Beginning to dump on file etex.fmt
+ (preloaded format=etex 2015.6.18)
+2880 strings of total length 42745
+7960 memory locations dumped; current usage is 203&7290
+1258 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\preloaded=cmr9
+\font\preloaded=cmr8
+\font\sevenrm=cmr7
+\font\preloaded=cmr6
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\preloaded=cmmi9
+\font\preloaded=cmmi8
+\font\seveni=cmmi7
+\font\preloaded=cmmi6
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\preloaded=cmsy9
+\font\preloaded=cmsy8
+\font\sevensy=cmsy7
+\font\preloaded=cmsy6
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\preloaded=cmss10
+\font\preloaded=cmssq8
+\font\preloaded=cmssi10
+\font\preloaded=cmssqi8
+\font\tenbf=cmbx10
+\font\preloaded=cmbx9
+\font\preloaded=cmbx8
+\font\sevenbf=cmbx7
+\font\preloaded=cmbx6
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\preloaded=cmtt9
+\font\preloaded=cmtt8
+\font\preloaded=cmsltt10
+\font\tensl=cmsl10
+\font\preloaded=cmsl9
+\font\preloaded=cmsl8
+\font\tenit=cmti10
+\font\preloaded=cmti9
+\font\preloaded=cmti8
+\font\preloaded=cmti7
+\font\preloaded=cmu10
+\font\preloaded=cmmib10
+\font\preloaded=cmbsy10
+\font\preloaded=cmcsc10
+\font\preloaded=cmssbx10
+\font\preloaded=cmdunh10
+\font\preloaded=cmr7 at 14.51799pt
+\font\preloaded=cmtt10 at 14.4pt
+\font\preloaded=cmssbx10 at 14.4pt
+\font\preloaded=manfnt
+14787 words of font info for 50 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 6075 has 181 ops out of 35111
+  181 for language 0
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.
+Transcript written on etex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/pdftex/etex.fmt installed.
+fmtutil: running `pdftex -ini  -jobname=pdfetex -progname=pdfetex -translate-file=cp227.tcx *pdfetex.ini' ...
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (INITEX)
+ restricted \write18 enabled.
+ (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/cp227.tcx)
+entering extended mode
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/pdfetex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/pdftexconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etex.src
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/base/plain.tex
+Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+macros, math definitions, output routines, hyphenation
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex
+[skipping from \patterns to end-of-file...]))
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etexdefs.lib
+Skipping module "grouptypes"; Loading module "interactionmodes";
+Skipping module "nodetypes"; Skipping module "iftypes";)
+(/tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.def
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex))
+Augmenting the Plain TeX definitions: \tracingall;
+Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+register allocation; extended register allocation; 
+Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/pdftexmagfix.tex) )
+Beginning to dump on file pdfetex.fmt
+ (preloaded format=pdfetex 2015.6.18)
+2890 strings of total length 43130
+7960 memory locations dumped; current usage is 203&7321
+1260 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\preloaded=cmr9
+\font\preloaded=cmr8
+\font\sevenrm=cmr7
+\font\preloaded=cmr6
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\preloaded=cmmi9
+\font\preloaded=cmmi8
+\font\seveni=cmmi7
+\font\preloaded=cmmi6
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\preloaded=cmsy9
+\font\preloaded=cmsy8
+\font\sevensy=cmsy7
+\font\preloaded=cmsy6
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\preloaded=cmss10
+\font\preloaded=cmssq8
+\font\preloaded=cmssi10
+\font\preloaded=cmssqi8
+\font\tenbf=cmbx10
+\font\preloaded=cmbx9
+\font\preloaded=cmbx8
+\font\sevenbf=cmbx7
+\font\preloaded=cmbx6
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\preloaded=cmtt9
+\font\preloaded=cmtt8
+\font\preloaded=cmsltt10
+\font\tensl=cmsl10
+\font\preloaded=cmsl9
+\font\preloaded=cmsl8
+\font\tenit=cmti10
+\font\preloaded=cmti9
+\font\preloaded=cmti8
+\font\preloaded=cmti7
+\font\preloaded=cmu10
+\font\preloaded=cmmib10
+\font\preloaded=cmbsy10
+\font\preloaded=cmcsc10
+\font\preloaded=cmssbx10
+\font\preloaded=cmdunh10
+\font\preloaded=cmr7 at 14.51799pt
+\font\preloaded=cmtt10 at 14.4pt
+\font\preloaded=cmssbx10 at 14.4pt
+\font\preloaded=manfnt
+14787 words of font info for 50 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 6075 has 181 ops out of 35111
+  181 for language 0
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.
+Transcript written on pdfetex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/pdftex/pdfetex.fmt installed.
+fmtutil: running `luatex -ini  -jobname=dvilualatex -progname=dvilualatex dvilualatex.ini' ...
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (INITEX)
+ restricted \write18 enabled.
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/latexconfig/dvilualatex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/latexconfig/lualatexiniconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/pdftexconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/latex.ltx
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, compatibility for TeX 2,  parameters,
+LaTeX2e <2015/01/01>
+hacks, control, par, spacing, files, font encodings, lengths,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omsenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmss.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlcmm.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omscmsy.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omxcmex.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+environments, center, verbatim, math definitions, boxes, title, sectioning,
+contents, floats, footnotes, index, bibliography, output,
+ Unicode character data,
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/unicode-letters.def)
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/hyphen.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/luababel.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/switch.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+=================================
+Applying patch file ltpatch.ltx
+=================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ltpatch.ltx)
+)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/latexconfig/lualatex-patch-kernel.tex
+)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/latexconfig/lualatex-reset-codes.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/luatex-unicode-letters.tex
+loading Unicode properties))
+Beginning to dump on file dvilualatex.fmt
+ (format=dvilualatex 2015.6.18)
+5219 strings using 33987 bytes
+151725 memory locations dumped; current usage is 124&47137
+3749 multiletter control sequences
+\font\nullfont=nullfont
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+14 preloaded fonts
+0 words of pdf memory
+0 indirect objects
+No pages of output.
+Transcript written on dvilualatex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/luatex/dvilualatex.fmt installed.
+fmtutil: running `luatex -ini  -jobname=dviluatex -progname=dviluatex dviluatex.ini' ...
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (INITEX)
+ restricted \write18 enabled.
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/dviluatex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/luatexiniconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/luatex-unicode-letters.tex
+loading Unicode properties)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/config/etex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/luatex/hyph-utf8/etex.src
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/base/plain.tex
+Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+macros, math definitions, output routines, hyphenation
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex
+[skipping from \patterns to end-of-file...]))
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/etex/etexdefs.lib
+Skipping module "grouptypes"; Loading module "interactionmodes";
+Skipping module "nodetypes"; Skipping module "iftypes";)
+(/tmp/tmp.hwCU44a4DA/texmf-var/tex/generic/config/language.def
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex))
+Augmenting the Plain TeX definitions: \tracingall;
+Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+register allocation; extended register allocation; 
+Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)))
+Beginning to dump on file dviluatex.fmt
+ (format=dviluatex 2015.6.18)
+3102 strings using 9575 bytes
+68807 memory locations dumped; current usage is 103&7700
+1710 multiletter control sequences
+\font\nullfont=nullfont
+\font\tenrm=cmr10
+\font\preloaded=cmr9
+\font\preloaded=cmr8
+\font\sevenrm=cmr7
+\font\preloaded=cmr6
+\font\fiverm=cmr5
+\font\teni=cmmi10
+\font\preloaded=cmmi9
+\font\preloaded=cmmi8
+\font\seveni=cmmi7
+\font\preloaded=cmmi6
+\font\fivei=cmmi5
+\font\tensy=cmsy10
+\font\preloaded=cmsy9
+\font\preloaded=cmsy8
+\font\sevensy=cmsy7
+\font\preloaded=cmsy6
+\font\fivesy=cmsy5
+\font\tenex=cmex10
+\font\preloaded=cmss10
+\font\preloaded=cmssq8
+\font\preloaded=cmssi10
+\font\preloaded=cmssqi8
+\font\tenbf=cmbx10
+\font\preloaded=cmbx9
+\font\preloaded=cmbx8
+\font\sevenbf=cmbx7
+\font\preloaded=cmbx6
+\font\fivebf=cmbx5
+\font\tentt=cmtt10
+\font\preloaded=cmtt9
+\font\preloaded=cmtt8
+\font\preloaded=cmsltt10
+\font\tensl=cmsl10
+\font\preloaded=cmsl9
+\font\preloaded=cmsl8
+\font\tenit=cmti10
+\font\preloaded=cmti9
+\font\preloaded=cmti8
+\font\preloaded=cmti7
+\font\preloaded=cmu10
+\font\preloaded=cmmib10
+\font\preloaded=cmbsy10
+\font\preloaded=cmcsc10
+\font\preloaded=cmssbx10
+\font\preloaded=cmdunh10
+\font\preloaded=cmr7 at 14.51799pt
+\font\preloaded=cmtt10 at 14.4pt
+\font\preloaded=cmssbx10 at 14.4pt
+\font\preloaded=manfnt
+50 preloaded fonts
+0 words of pdf memory
+0 indirect objects
+No pages of output.
+Transcript written on dviluatex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/luatex/dviluatex.fmt installed.
+fmtutil: running `pdftex -ini  -jobname=latex -progname=latex -translate-file=cp227.tcx *latex.ini' ...
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (INITEX)
+ restricted \write18 enabled.
+ (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/cp227.tcx)
+entering extended mode
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/latexconfig/latex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/config/pdftexconfig.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/latex.ltx
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, compatibility for TeX 2,  parameters,
+LaTeX2e <2015/01/01>
+hacks, control, par, spacing, files, font encodings, lengths,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omsenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmss.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlcmm.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omscmsy.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omxcmex.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+environments, center, verbatim, math definitions, boxes, title, sectioning,
+contents, floats, footnotes, index, bibliography, output,
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/hyphen.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/switch.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+=================================
+Applying patch file ltpatch.ltx
+=================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ltpatch.ltx)
+ ) )
+Beginning to dump on file latex.fmt
+ (preloaded format=latex 2015.6.18)
+4995 strings of total length 68695
+45328 memory locations dumped; current usage is 144&43444
+3340 multiletter control sequences
+\font\nullfont=nullfont
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+3633 words of font info for 14 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 6081 has 183 ops out of 35111
+  2 for language 1
+  181 for language 0
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.
+Transcript written on latex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/pdftex/latex.fmt installed.
+fmtutil: running `mf-nowin -ini  -jobname=mf -progname=mf -translate-file=cp227.tcx mf.ini' ...
+This is METAFONT, Version 2.7182818 (TeX Live 2015) (INIMF)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/cp227.tcx)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/metafont/config/mf.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/metafont/base/plain.mf
+Preloading the plain base, version 2.71: preliminaries,
+ basic constants and mathematical macros,
+ macros for converting from device-independent units to pixels,
+ macros and tables for various modes of operation,
+ macros for drawing and filling,
+ macros for proof labels and rules,
+ macros for character and font administration,
+and a few last-minute items.)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/metafont/misc/modes.mf) )
+Beginning to dump on file mf.base
+ (preloaded base=mf 2015.6.18)
+2226 strings of total length 30031
+11855 memory locations dumped; current usage is 3651&7844
+1004 symbolic tokens
+Transcript written on mf.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/metafont/mf.base installed.
+fmtutil: running `xetex -ini  -jobname=xelatex -progname=xelatex -etex xelatex.ini' ...
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (INITEX)
+ restricted \write18 enabled.
+entering extended mode
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/latexconfig/xelatex.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/latex.ltx
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, compatibility for TeX 2,  parameters,
+LaTeX2e <2015/01/01>
+hacks, control, par, spacing, files, font encodings, lengths,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1enc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omsenc.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/t1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmr.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmss.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omlcmm.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omscmsy.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/omxcmex.fd)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+environments, center, verbatim, math definitions, boxes, title, sectioning,
+contents, floats, footnotes, index, bibliography, output,
+ Unicode character data,
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/unicode-letters.def)
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/hyphen.cfg
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/xebabel.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/babel/switch.def)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+=================================
+Applying patch file ltpatch.ltx
+=================================
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/latex/base/ltpatch.ltx)
+ ) )
+Beginning to dump on file xelatex.fmt
+ (preloaded format=xelatex 2015.6.18)
+69899 strings of total length 62315
+45627 memory locations dumped; current usage is 303&43580
+3316 multiletter control sequences
+\font\nullfont=nullfont
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+3633 words of font info for 14 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 6082 has 183 ops out of 35111
+  2 for language 1
+  181 for language 0
+No pages of output.
+Transcript written on xelatex.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/xetex/xelatex.fmt installed.
+fmtutil: running `pdftex -ini  -jobname=mptopdf -progname=context -translate-file=cp227.tcx mptopdf.tex' ...
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (INITEX)
+ restricted \write18 enabled.
+ (/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/cp227.tcx)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/context/base/syst-tex.mkii
+(/tmp/tmp.hwCU44a4DA/texmf-dist/tex/plain/base/plain.tex
+Preloading the plain format: codes, registers, parameters, fonts,
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+more fonts,
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping \font in plain
+skipping scaled \font in plain
+skipping scaled \font in plain
+skipping scaled \font in plain
+skipping \font in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \skewchar in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+skipping \textfont in plain
+skipping \textfont in plain
+skipping \scriptfont in plain
+skipping \scriptscriptfont in plain
+skipping \textfont in plain
+macros, math definitions,
+skipping used \tenex in plain
+output routines, hyphenation
+skipping \input in plain
+skipping \tenrm in plain
+)) (/tmp/tmp.hwCU44a4DA/texmf-dist/tex/context/base/supp-mis.mkii
+loading : ConTeXt Support Macros / Miscellaneous (2004.10.26)
+) (/tmp/tmp.hwCU44a4DA/texmf-dist/tex/context/base/supp-pdf.mkii
+loading : ConTeXt Support Macros / PDF
+) (/tmp/tmp.hwCU44a4DA/texmf-dist/tex/context/base/supp-mpe.mkii
+loading : ConTeXt Support Macros / MPS extensions
+) )
+Beginning to dump on file mptopdf.fmt
+ (preloaded format=mptopdf 2015.6.18)
+3286 strings of total length 48823
+13893 memory locations dumped; current usage is 116&13746
+1661 multiletter control sequences
+\font\nullfont=nullfont
+0 words of font info for 0 preloaded fonts
+0 hyphenation exceptions
+Hyphenation trie of length 256 has 0 ops out of 35111
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.
+Transcript written on mptopdf.log.
+fmtutil [INFO]: /tmp/tmp.hwCU44a4DA/texmf-var/web2c/pdftex/mptopdf.fmt installed.
+fmtutil [INFO]: Disabled formats: 1
+fmtutil [INFO]: Successfully rebuild formats: 15
+running package-specific postactions
+postaction install script for dvipdfmx: perl /tmp/tmp.hwCU44a4DA/tlpkg/tlpostcode/dvipdfmx.pl
+postaction install script for xetex: perl /tmp/tmp.hwCU44a4DA/tlpkg/tlpostcode/xetex.pl
+finished with package-specific postactions

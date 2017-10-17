@@ -1,0 +1,20 @@
+name xetex-tibetan
+category Package
+revision 28847
+shortdesc XeTeX input maps for Unicode Tibetan.
+relocated 1
+longdesc The package provides a map for use with Jonathan Kew's TECkit,
+longdesc to translate Tibetan to Unicode (range 0F00-0FFF).
+containersize 7032
+containermd5 3b8ef79bb0bb85651e52d5dc9b0b8bdc
+doccontainersize 1204
+doccontainermd5 8f36d859e21d49aab0ceda7935b63708
+runfiles size=6
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/loctib.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/loctib.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/wylie.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xetex-tibetan/wylie.tec
+catalogue-ctan /macros/xetex/generic/tibetan
+catalogue-date 2013-01-26 20:44:01 +0100
+catalogue-license lppl
+catalogue-version 0.1

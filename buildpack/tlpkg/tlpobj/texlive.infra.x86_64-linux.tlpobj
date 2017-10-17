@@ -1,0 +1,10 @@
+name texlive.infra.x86_64-linux
+category TLCore
+revision 36785
+shortdesc x86_64-linux files of texlive.infra
+containersize 92924
+containermd5 f6e6b77c9e00a6dd6963723c1dc923fb
+binfiles arch=x86_64-linux size=67
+ bin/x86_64-linux/tlmgr
+ tlpkg/installer/xz/xz.x86_64-linux
+ tlpkg/installer/xz/xzdec.x86_64-linux

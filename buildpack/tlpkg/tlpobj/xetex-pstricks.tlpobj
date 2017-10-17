@@ -1,0 +1,21 @@
+name xetex-pstricks
+category Package
+revision 17055
+shortdesc Running PStricks under XeTeX.
+relocated 1
+longdesc The package provides an indirection scheme for XeTeX to use the
+longdesc pstricks xdvipdfmx.cfg configuration file, so that XeTeX
+longdesc documents will load it in preference to the standard
+longdesc pstricks.con configuration file. With this configuration, many
+longdesc PSTricks features can be used in xelatex or plain xetex
+longdesc documents.
+containersize 712
+containermd5 a8147d355da960c2e1f268f8f95640fa
+doccontainersize 936
+doccontainermd5 540f568d68df8eec35e828c3e657c263
+runfiles size=2
+ texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+ texmf-dist/tex/xetex/xetex-pstricks/pstricks.con
+catalogue-ctan /graphics/xetex/pstricks
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license pd

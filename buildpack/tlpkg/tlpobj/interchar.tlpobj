@@ -1,0 +1,19 @@
+name interchar
+category Package
+revision 36312
+shortdesc Managing character class schemes in XeTeX
+relocated 1
+longdesc The package manages character class schemes of XeTeX. Using
+longdesc this package, you may switch among different character class
+longdesc schemes. Migration commands are provided for make packages
+longdesc using this mechanism compatible with each others.
+containersize 5288
+containermd5 d60c77add6485b8a605535e51e5a695a
+doccontainersize 85428
+doccontainermd5 1804d2a52f7031603061e008d5a4ae94
+runfiles size=6
+ texmf-dist/tex/xelatex/interchar/interchar.sty
+catalogue-ctan /macros/xetex/latex/interchar
+catalogue-date 2015-03-01 06:19:26 +0100
+catalogue-license lppl1.3
+catalogue-version 0.2

@@ -1,0 +1,21 @@
+name mathspec
+category Package
+revision 15878
+shortdesc Specify arbitrary fonts for mathematics in XeTeX.
+relocated 1
+longdesc The mathspec package provides an interface to typeset
+longdesc mathematics in XeLaTeX with arbitrary text fonts using fontspec
+longdesc as a backend. The package is under development and later
+longdesc versions might to be incompatible with this version, as this
+longdesc version is incompatible with earlier versions. The package
+longdesc requires at least version 0.9995 of XeTeX.
+containersize 9652
+containermd5 e968c47fe5cf124702217753ba7c15a5
+doccontainersize 208800
+doccontainermd5 a06801a28b9abc8ed61c9820116d9035
+runfiles size=11
+ texmf-dist/tex/xelatex/mathspec/mathspec.sty
+catalogue-ctan /macros/xetex/latex/mathspec
+catalogue-date 2014-05-14 18:47:06 +0200
+catalogue-license lppl
+catalogue-version 0.2

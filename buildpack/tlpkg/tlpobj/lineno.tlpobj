@@ -1,0 +1,25 @@
+name lineno
+category Package
+revision 21442
+shortdesc Line numbers on paragraphs.
+relocated 1
+longdesc Adds line numbers to selected paragraphs with reference
+longdesc possible through the LaTeX \ref and \pageref cross reference
+longdesc mechanism. Line numbering may be extended to footnote lines,
+longdesc using the fnlineno package.
+containersize 62236
+containermd5 500f8ce8a10260995931571b9b47facd
+doccontainersize 649996
+doccontainermd5 0b0c7dbad36f9251d2a0965b03a8cde5
+srccontainersize 44288
+srccontainermd5 48a0d472171698621d74586770296fbd
+runfiles size=60
+ texmf-dist/tex/latex/lineno/ednmath0.sty
+ texmf-dist/tex/latex/lineno/edtable.sty
+ texmf-dist/tex/latex/lineno/fnlineno.sty
+ texmf-dist/tex/latex/lineno/lineno.sty
+ texmf-dist/tex/latex/lineno/vplref.sty
+catalogue-ctan /macros/latex/contrib/lineno
+catalogue-date 2012-04-21 20:14:11 +0200
+catalogue-license lppl
+catalogue-version 4.41

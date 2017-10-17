@@ -1,0 +1,25 @@
+name xetex
+category TLCore
+revision 37058
+shortdesc Unicode and OpenType-enabled TeX engine.
+longdesc See http://tug.org/xetex.
+depend xetexconfig
+depend xetex.ARCH
+execute AddFormat name=xetex engine=xetex patterns=language.def                              options="-etex xetex.ini"
+execute AddFormat name=xelatex engine=xetex patterns=language.dat                              options="-etex xelatex.ini"
+postaction script file=tlpkg/tlpostcode/xetex.pl
+containersize 47100
+containermd5 e02e7ddefe491420c8e996975a5761a1
+doccontainersize 581628
+doccontainermd5 10018a33910c69c19710a876b1dea84a
+runfiles size=57
+ texmf-dist/fonts/misc/xetex/fontmapping/base/qx-unicode.map
+ texmf-dist/fonts/misc/xetex/fontmapping/base/qx-unicode.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/base/tex-text.map
+ texmf-dist/fonts/misc/xetex/fontmapping/base/tex-text.tec
+ texmf-dist/scripts/xetex/perl/lib/PDF/Reuse.pm
+ texmf-dist/scripts/xetex/perl/lib/PDF/Reuse/Util.pm
+ texmf-dist/scripts/xetex/perl/xdv2pdf_mergemarks
+ tlpkg/tlpostcode/xetex.pl
+catalogue-date 2015-04-04 16:29:12 +0200
+catalogue-license other-free

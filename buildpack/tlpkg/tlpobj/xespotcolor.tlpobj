@@ -1,0 +1,21 @@
+name xespotcolor
+category Package
+revision 36597
+shortdesc Spot colours support for XeLaTeX
+relocated 1
+longdesc The package provides macros for using spot colours in LaTeX
+longdesc documents. The package is a reimplementation of the spotcolor
+longdesc package for use with XeLaTeX. As such, it has the same user
+longdesc interface and the same capabilities.
+containersize 2000
+containermd5 4a6e7ff68667a5c1ea1a3cbacbfd92a1
+doccontainersize 147552
+doccontainermd5 68e45f8056f43039cbff9e890b37130b
+srccontainersize 5764
+srccontainermd5 c5e484415b17faf8997743c56542dffe
+runfiles size=1
+ texmf-dist/tex/xelatex/xespotcolor/xespotcolor.sty
+catalogue-ctan /macros/xetex/latex/xespotcolor
+catalogue-date 2015-03-18 20:29:51 +0100
+catalogue-license lppl1.3
+catalogue-version 1.2

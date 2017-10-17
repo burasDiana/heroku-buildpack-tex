@@ -1,0 +1,35 @@
+name mathtools
+category Package
+revision 37331
+shortdesc Mathematical tools to use with amsmath.
+relocated 1
+longdesc Mathtools provides a series of packages designed to enhance the
+longdesc appearance of documents containing a lot of mathematics. The
+longdesc main backbone is amsmath, so those unfamiliar with this
+longdesc required part of the LaTeX system will probably not find the
+longdesc packages very useful. Mathtools provides many useful tools for
+longdesc mathematical typesetting. It is based on amsmath and fixes
+longdesc various deficiencies of amsmath and standard LaTeX. It
+longdesc provides: Extensible symbols, such as brackets, arrows,
+longdesc harpoons, etc.; Various symbols such as \coloneqq (:=); Easy
+longdesc creation of new tag forms; Showing equation numbers only for
+longdesc referenced equations; Extensible arrows, harpoons and
+longdesc hookarrows; Starred versions of the amsmath matrix environments
+longdesc for specifying the column alignment; More building blocks:
+longdesc multlined, cases-like environments, new gathered environments;
+longdesc Maths versions of \makebox, \llap, \rlap etc.; Cramped math
+longdesc styles; and more... Mathtools requires mhsetup.
+containersize 18500
+containermd5 e2e7d7b39f13594b6860c493ae867eb7
+doccontainersize 959836
+doccontainermd5 60946239f26fd12ec67d5fd7d9807d4f
+srccontainersize 77856
+srccontainermd5 426fd2a9a4e07cc34c60ea63b288d3ec
+runfiles size=26
+ texmf-dist/tex/latex/mathtools/empheq.sty
+ texmf-dist/tex/latex/mathtools/mathtools.sty
+ texmf-dist/tex/latex/mathtools/mhsetup.sty
+catalogue-ctan /macros/latex/contrib/mathtools
+catalogue-date 2015-05-11 15:33:30 +0200
+catalogue-license lppl1.3
+catalogue-version 1.16

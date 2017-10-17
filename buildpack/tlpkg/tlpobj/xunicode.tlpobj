@@ -1,0 +1,22 @@
+name xunicode
+category Package
+revision 30466
+shortdesc Generate Unicode characters from accented glyphs.
+relocated 1
+longdesc The package supports XeTeX's (and other putative future similar
+longdesc engines') need for Unicode characters, in a similar way to what
+longdesc the fontenc does for 8-bit (and the like) fonts: convert accent-
+longdesc glyph sequence to a single Unicode character for output. The
+longdesc package also covers glyphs specified by packages (such as tipa)
+longdesc which define many commands for single text glyphs.
+depend tipa
+containersize 25752
+containermd5 0d7652ea873f6928dc19599ad4cd0253
+doccontainersize 588
+doccontainermd5 03cbd4d77da7fead145c62785d740890
+runfiles size=51
+ texmf-dist/tex/xelatex/xunicode/xunicode.sty
+catalogue-ctan /macros/xetex/latex/xunicode
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl1.3
+catalogue-version 0.981

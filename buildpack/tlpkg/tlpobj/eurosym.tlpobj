@@ -1,0 +1,46 @@
+name eurosym
+category Package
+revision 17265
+shortdesc Metafont and macros for Euro sign.
+longdesc The European currency symbol for the Euro implemented in
+longdesc Metafont, using the official European Commission dimensions,
+longdesc and providing several shapes (normal, slanted, bold, outline).
+longdesc The package also includes a LaTeX package which defines the
+longdesc macro, pre-compiled tfm files, and documentation.
+execute addMixedMap eurosym.map
+containersize 139812
+containermd5 a8047ccddac3360c64060d93ded4ec02
+doccontainersize 277728
+doccontainermd5 d09c72f92e5cccba6b7a830bf2dd2b9e
+runfiles size=72
+ texmf-dist/fonts/map/dvips/eurosym/eurosym.map
+ texmf-dist/fonts/source/public/eurosym/fey.mf
+ texmf-dist/fonts/source/public/eurosym/feybl10.mf
+ texmf-dist/fonts/source/public/eurosym/feybo10.mf
+ texmf-dist/fonts/source/public/eurosym/feybr10.mf
+ texmf-dist/fonts/source/public/eurosym/feyml10.mf
+ texmf-dist/fonts/source/public/eurosym/feymo10.mf
+ texmf-dist/fonts/source/public/eurosym/feymr10.mf
+ texmf-dist/fonts/tfm/public/eurosym/feybl10.tfm
+ texmf-dist/fonts/tfm/public/eurosym/feybo10.tfm
+ texmf-dist/fonts/tfm/public/eurosym/feybr10.tfm
+ texmf-dist/fonts/tfm/public/eurosym/feyml10.tfm
+ texmf-dist/fonts/tfm/public/eurosym/feymo10.tfm
+ texmf-dist/fonts/tfm/public/eurosym/feymr10.tfm
+ texmf-dist/fonts/type1/public/eurosym/feybl10.pfb
+ texmf-dist/fonts/type1/public/eurosym/feybo10.pfb
+ texmf-dist/fonts/type1/public/eurosym/feybr10.pfb
+ texmf-dist/fonts/type1/public/eurosym/feyml10.pfb
+ texmf-dist/fonts/type1/public/eurosym/feymo10.pfb
+ texmf-dist/fonts/type1/public/eurosym/feymr10.pfb
+ texmf-dist/fonts/type1/public/eurosym/geybl10.pfb
+ texmf-dist/fonts/type1/public/eurosym/geybo10.pfb
+ texmf-dist/fonts/type1/public/eurosym/geybr10.pfb
+ texmf-dist/fonts/type1/public/eurosym/geyml10.pfb
+ texmf-dist/fonts/type1/public/eurosym/geymo10.pfb
+ texmf-dist/fonts/type1/public/eurosym/geymr10.pfb
+ texmf-dist/tex/latex/eurosym/eurosym.sty
+catalogue-ctan /fonts/eurosym
+catalogue-date 2014-04-26 19:51:19 +0200
+catalogue-license other-free
+catalogue-version 1.4-subrfix

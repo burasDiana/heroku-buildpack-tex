@@ -1,0 +1,34 @@
+name pdftex
+category TLCore
+revision 37432
+shortdesc A TeX extension for direct creation of PDF.
+longdesc An extension of TeX which can be configured to directly
+longdesc generate PDF documents instead of DVI. All current free TeX
+longdesc distributions including TeX live, MacTeX and MiKTeX include
+longdesc pdfTeX (Plain TeX) and pdfLaTeX (LaTeX). ConTeXt was designed
+longdesc around use of pdfTeX (though it is now migrating towards
+longdesc LuaTeX).
+depend kpathsea
+depend pdftex.ARCH
+execute AddFormat name=pdftex  engine=pdftex patterns=language.def                     options="-translate-file=cp227.tcx *pdfetex.ini"
+execute AddFormat name=etex    engine=pdftex patterns=language.def                     options="-translate-file=cp227.tcx *etex.ini"
+execute AddFormat name=pdfetex engine=pdftex patterns=language.def                     options="-translate-file=cp227.tcx *pdfetex.ini"
+execute addMap dummy-space.map
+containersize 157080
+containermd5 30303af72d822365e406893ae8213d1c
+doccontainersize 2782588
+doccontainermd5 66a0375ce41cf2a5ffae4a75c97f4f7b
+runfiles size=1359
+ texmf-dist/fonts/map/dvips/dummy-space/dummy-space.map
+ texmf-dist/fonts/map/pdftex/updmap/pdftex.map
+ texmf-dist/fonts/map/pdftex/updmap/pdftex_dl14.map
+ texmf-dist/fonts/map/pdftex/updmap/pdftex_ndl14.map
+ texmf-dist/fonts/tfm/public/pdftex/dummy-space.tfm
+ texmf-dist/fonts/type1/public/pdftex/dummy-space.pfb
+ texmf-dist/scripts/simpdftex/simpdftex
+ texmf-dist/tex/generic/config/pdftex-dvi.tex
+ texmf-dist/tex/generic/config/pdftexconfig.tex
+ texmf-dist/tex/generic/pdftex/glyphtounicode.tex
+ texmf-dist/tex/generic/pdftex/pdfcolor.tex
+catalogue-date 2015-04-04 16:29:12 +0200
+catalogue-license gpl

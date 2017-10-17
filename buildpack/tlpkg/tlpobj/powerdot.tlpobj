@@ -1,0 +1,42 @@
+name powerdot
+category Package
+revision 32549
+shortdesc A presentation class.
+relocated 1
+longdesc Powerdot is a presentation class for LaTeX that allows for the
+longdesc quick and easy development of professional presentations. It
+longdesc comes with many tools that enhance presentations and aid the
+longdesc presenter. Examples are automatic overlays, personal notes and
+longdesc a handout mode. To view a presentation, DVI, PS or PDF output
+longdesc can be used. A powerful template system is available to easily
+longdesc develop new styles. A LyX layout file is provided.
+containersize 26012
+containermd5 eb6e901ae733ba48b5c7770743c7f0bc
+doccontainersize 914088
+doccontainermd5 19097799b6acc8bd216cd55e821f13e6
+srccontainersize 66680
+srccontainermd5 be65a7cfba6d4d05e1ec16b3a374aef2
+runfiles size=49
+ texmf-dist/tex/latex/powerdot/powerdot-aggie.sty
+ texmf-dist/tex/latex/powerdot/powerdot-bframe.sty
+ texmf-dist/tex/latex/powerdot/powerdot-ciment.sty
+ texmf-dist/tex/latex/powerdot/powerdot-default.ps
+ texmf-dist/tex/latex/powerdot/powerdot-default.sty
+ texmf-dist/tex/latex/powerdot/powerdot-elcolors.sty
+ texmf-dist/tex/latex/powerdot/powerdot-fyma.sty
+ texmf-dist/tex/latex/powerdot/powerdot-horatio.sty
+ texmf-dist/tex/latex/powerdot/powerdot-husky.sty
+ texmf-dist/tex/latex/powerdot/powerdot-ikeda.sty
+ texmf-dist/tex/latex/powerdot/powerdot-jefka.sty
+ texmf-dist/tex/latex/powerdot/powerdot-klope.sty
+ texmf-dist/tex/latex/powerdot/powerdot-paintings.sty
+ texmf-dist/tex/latex/powerdot/powerdot-pazik.sty
+ texmf-dist/tex/latex/powerdot/powerdot-sailor.sty
+ texmf-dist/tex/latex/powerdot/powerdot-simple.sty
+ texmf-dist/tex/latex/powerdot/powerdot-tycja.sty
+ texmf-dist/tex/latex/powerdot/powerdot-upen.sty
+ texmf-dist/tex/latex/powerdot/powerdot.cls
+catalogue-ctan /macros/latex/contrib/powerdot
+catalogue-date 2014-01-02 07:32:11 +0100
+catalogue-license lppl1.3
+catalogue-version 1.5

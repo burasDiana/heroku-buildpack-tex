@@ -1,0 +1,20 @@
+name unisugar
+category Package
+revision 22357
+shortdesc Define syntactic sugar for Unicode LaTeX.
+relocated 1
+longdesc The package allows the user to define shorthand aliases for
+longdesc single Unicode characters, and also provides support for such
+longdesc aliases in RTL-text. The package requires an TeX-alike system
+longdesc that uses Unicode input in a native way: current examples are
+longdesc XeTeX and LuaTeX.
+containersize 2456
+containermd5 da06cd432a4ec8cdbcb79384e0f69131
+doccontainersize 456512
+doccontainermd5 3d2c35cbd3bbfa676ccc087f5a44700d
+runfiles size=2
+ texmf-dist/tex/xelatex/unisugar/unisugar.sty
+catalogue-ctan /macros/xetex/latex/unisugar
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl1.3
+catalogue-version 0.92

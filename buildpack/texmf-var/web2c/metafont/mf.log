@@ -1,0 +1,19 @@
+This is METAFONT, Version 2.7182818 (TeX Live 2015) (INIMF)  18 JUN 2015 11:57
+(/tmp/tmp.hwCU44a4DA/texmf-dist/web2c/cp227.tcx)
+**mf.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/metafont/config/mf.ini
+(/tmp/tmp.hwCU44a4DA/texmf-dist/metafont/base/plain.mf
+Preloading the plain base, version 2.71: preliminaries,
+ basic constants and mathematical macros,
+ macros for converting from device-independent units to pixels,
+ macros and tables for various modes of operation,
+ macros for drawing and filling,
+ macros for proof labels and rules,
+ macros for character and font administration,
+and a few last-minute items.)
+(/tmp/tmp.hwCU44a4DA/texmf-dist/metafont/misc/modes.mf) )
+Beginning to dump on file mf.base
+ (preloaded base=mf 2015.6.18)
+2226 strings of total length 30031
+11855 memory locations dumped; current usage is 3651&7844
+1004 symbolic tokens

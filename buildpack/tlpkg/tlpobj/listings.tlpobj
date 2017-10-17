@@ -1,0 +1,44 @@
+name listings
+category Package
+revision 37534
+shortdesc Typeset source code listings using LaTeX.
+relocated 1
+longdesc The package enables the user to typeset programs (programming
+longdesc code) within LaTeX; the source code is read directly by TeX--no
+longdesc front-end processor is needed. Keywords, comments and strings
+longdesc can be typeset using different styles (default is bold for
+longdesc keywords, italic for comments and no special style for
+longdesc strings). Support for hyperref is provided. To use,
+longdesc \usepackage{listings}, identify the language of the object to
+longdesc typeset, using a construct like: \lstset{language=Python}, then
+longdesc use environment lstlisting for inline code. External files may
+longdesc be formatted using \lstinputlisting to process a given file in
+longdesc the form appropriate for the current language. Short (in-line)
+longdesc listings are also available, using either \lstinline|...| or
+longdesc |...| (after defining the | token with the \lstMakeShortInline
+longdesc command).
+containersize 119504
+containermd5 16ac93dcb1e5a9e27cb6c686f61b4252
+doccontainersize 1215440
+doccontainermd5 d039b8f71ce90a622dd9f1ee5e024119
+srccontainersize 235420
+srccontainermd5 e5ccdc2d78cc0ae2c1b6a0001adfbe3a
+runfiles size=117
+ texmf-dist/tex/latex/listings/listings-acm.prf
+ texmf-dist/tex/latex/listings/listings-bash.prf
+ texmf-dist/tex/latex/listings/listings-fortran.prf
+ texmf-dist/tex/latex/listings/listings-lua.prf
+ texmf-dist/tex/latex/listings/listings-python.prf
+ texmf-dist/tex/latex/listings/listings.cfg
+ texmf-dist/tex/latex/listings/listings.sty
+ texmf-dist/tex/latex/listings/lstdoc.sty
+ texmf-dist/tex/latex/listings/lstlang1.sty
+ texmf-dist/tex/latex/listings/lstlang2.sty
+ texmf-dist/tex/latex/listings/lstlang3.sty
+ texmf-dist/tex/latex/listings/lstmisc.sty
+catalogue-also listing
+catalogue-ctan /macros/latex/contrib/listings
+catalogue-date 2015-06-05 00:14:30 +0200
+catalogue-license lppl1.3
+catalogue-topics listing synt-hlt
+catalogue-version 1.6

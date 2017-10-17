@@ -1,0 +1,41 @@
+name xkeyval
+category Package
+revision 35741
+shortdesc Extension of the keyval package.
+relocated 1
+longdesc This package is an extension of the keyval package and offers
+longdesc additional macros for setting keys and declaring and setting
+longdesc class or package options. The package allows the programmer to
+longdesc specify a prefix to the name of the macros it defines for keys,
+longdesc and to define families of key definitions; these all help use
+longdesc in documents where several packages define their own sets of
+longdesc keys.
+containersize 13108
+containermd5 3ed29591475964796ced8d5ea8e002fe
+doccontainersize 388348
+doccontainermd5 76ca4270051c3b59338f1eae7910dded
+srccontainersize 47568
+srccontainermd5 ff01c00aa2deebae1aedc557cdb2351f
+runfiles size=28
+ texmf-dist/tex/generic/xkeyval/keyval.tex
+ texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+ texmf-dist/tex/generic/xkeyval/xkeyval.tex
+ texmf-dist/tex/generic/xkeyval/xkvex1.tex
+ texmf-dist/tex/generic/xkeyval/xkvex2.tex
+ texmf-dist/tex/generic/xkeyval/xkvex3.tex
+ texmf-dist/tex/generic/xkeyval/xkvex4.tex
+ texmf-dist/tex/generic/xkeyval/xkvtxhdr.tex
+ texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+ texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ texmf-dist/tex/latex/xkeyval/xkveca.cls
+ texmf-dist/tex/latex/xkeyval/xkvecb.cls
+ texmf-dist/tex/latex/xkeyval/xkvesa.sty
+ texmf-dist/tex/latex/xkeyval/xkvesb.sty
+ texmf-dist/tex/latex/xkeyval/xkvesc.sty
+ texmf-dist/tex/latex/xkeyval/xkvltxp.sty
+ texmf-dist/tex/latex/xkeyval/xkvview.sty
+catalogue-ctan /macros/latex/contrib/xkeyval
+catalogue-date 2014-12-03 21:39:01 +0100
+catalogue-license lppl1.3
+catalogue-version 2.7a

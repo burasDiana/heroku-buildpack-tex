@@ -1,0 +1,11 @@
+name latex-bin.x86_64-linux
+category TLCore
+revision 14050
+shortdesc x86_64-linux files of latex-bin
+containersize 376
+containermd5 1fcd978ec7fc01c22d591e2ad6fccc7a
+binfiles arch=x86_64-linux size=4
+ bin/x86_64-linux/dvilualatex
+ bin/x86_64-linux/latex
+ bin/x86_64-linux/lualatex
+ bin/x86_64-linux/pdflatex

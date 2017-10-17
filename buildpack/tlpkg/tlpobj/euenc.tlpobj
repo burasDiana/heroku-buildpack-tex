@@ -1,0 +1,40 @@
+name euenc
+category Package
+revision 19795
+shortdesc Unicode font encoding definitions for XeTeX.
+relocated 1
+longdesc Font encoding definitions for unicode fonts loaded by LaTeX in
+longdesc XeTeX or LuaTeX. The package provides two encodings: EU1,
+longdesc designed for use with XeTeX, which the fontspec uses for
+longdesc unicode fonts which require no macro-level processing for
+longdesc accents, and EU2, which provides the same facilities for use
+longdesc with LuaTeX. Neither encoding places any restriction on the
+longdesc glyphs provided by a font; use of EU2 causes the package
+longdesc euxunicode to be loaded (the package is part of this
+longdesc distribution). The package includes font definition files for
+longdesc use with the Latin Modern OpenType fonts.
+containersize 3252
+containermd5 96e0a21d00432967b751da28799e727e
+doccontainersize 145784
+doccontainermd5 813c493591d491b1729f8353f78b5789
+srccontainersize 6876
+srccontainermd5 68afe5c3f4359ac509f4763c4a855ed1
+runfiles size=14
+ texmf-dist/tex/latex/euenc/eu1enc.def
+ texmf-dist/tex/latex/euenc/eu1lmdh.fd
+ texmf-dist/tex/latex/euenc/eu1lmr.fd
+ texmf-dist/tex/latex/euenc/eu1lmss.fd
+ texmf-dist/tex/latex/euenc/eu1lmssq.fd
+ texmf-dist/tex/latex/euenc/eu1lmtt.fd
+ texmf-dist/tex/latex/euenc/eu1lmvtt.fd
+ texmf-dist/tex/latex/euenc/eu2enc.def
+ texmf-dist/tex/latex/euenc/eu2lmdh.fd
+ texmf-dist/tex/latex/euenc/eu2lmr.fd
+ texmf-dist/tex/latex/euenc/eu2lmss.fd
+ texmf-dist/tex/latex/euenc/eu2lmssq.fd
+ texmf-dist/tex/latex/euenc/eu2lmtt.fd
+ texmf-dist/tex/latex/euenc/eu2lmvtt.fd
+catalogue-ctan /macros/latex/contrib/euenc
+catalogue-date 2014-10-16 20:18:43 +0200
+catalogue-license lppl1.3
+catalogue-version 0.1h

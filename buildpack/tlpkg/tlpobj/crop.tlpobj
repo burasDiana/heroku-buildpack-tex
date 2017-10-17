@@ -1,0 +1,28 @@
+name crop
+category Package
+revision 15878
+shortdesc Support for cropmarks.
+relocated 1
+longdesc A package providing corner marks for camera alignment as well
+longdesc as for trimming paper stacks, and additional page information
+longdesc on every page if required. Most macros are easily adaptable to
+longdesc personal preferences. An option is provided for selectively
+longdesc suppressing graphics or text, which may be useful for printing
+longdesc just colour graphics on a colour laser printer and the rest on
+longdesc a cheap mono laser printer. A page info line contains the time
+longdesc and a new cropmarks index and is printed at the top of the
+longdesc page. A configuration command is provided for the info line
+longdesc font. Options for better collaboration with dvips, pdftex and
+longdesc vtex are provided.
+containersize 4600
+containermd5 43f9bef0cec6fc1f02dac07282f10103
+doccontainersize 195352
+doccontainermd5 2014af065eb9f897cb4298e27b00a47d
+srccontainersize 17860
+srccontainermd5 e295180fb09bc399681aae90e6ffc25d
+runfiles size=5
+ texmf-dist/tex/latex/crop/crop.sty
+catalogue-ctan /macros/latex/contrib/crop
+catalogue-date 2012-05-05 01:04:58 +0200
+catalogue-license lppl
+catalogue-version 1.5

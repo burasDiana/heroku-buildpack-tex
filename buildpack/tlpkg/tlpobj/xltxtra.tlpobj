@@ -1,0 +1,29 @@
+name xltxtra
+category Package
+revision 30466
+shortdesc "Extras" for LaTeX users of XeTeX.
+relocated 1
+longdesc The package loads the fixltx2e package from the LaTeX
+longdesc distribution, and etex.sty from the e-TeX distribution. The
+longdesc package then patches the \- (discretionary hyphen command) to
+longdesc use the current hyphen character (which may be different from
+longdesc than the default, which is the character at the ASCII hyphen
+longdesc slot), and loads the realscripts to patch the \textsuperscript
+longdesc command (from the LaTeX kernel) and the \textsubscript command
+longdesc (from the fixltx2e package). The package is loaded by the
+longdesc fontspec package, so that it should not ordinarily be necessary
+longdesc to load it explicitly. The package relies on the metalogo
+longdesc package for typesetting the XeTeX and XeLaTeX logos.
+depend metalogo
+containersize 2208
+containermd5 0c14606dfa45f8909fbc2647987c7464
+doccontainersize 135464
+doccontainermd5 80f0704dd64d4d5588d851961c5769ab
+srccontainersize 6260
+srccontainermd5 ecda28ac6f6de628f965744f56f9d185
+runfiles size=1
+ texmf-dist/tex/latex/xltxtra/xltxtra.sty
+catalogue-ctan /macros/latex/contrib/xltxtra
+catalogue-date 2012-03-06 14:36:12 +0100
+catalogue-license lppl
+catalogue-version 0.5e

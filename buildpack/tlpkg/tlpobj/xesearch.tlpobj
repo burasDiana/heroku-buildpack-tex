@@ -1,0 +1,23 @@
+name xesearch
+category Package
+revision 16041
+shortdesc A string finder for XeTeX.
+relocated 1
+longdesc The package finds strings (e.g. (parts of) words or phrases)
+longdesc and manipulates them (apply any macro), thus turning each word
+longdesc or phrase into a possible command. It is written in plain XeTeX
+longdesc and should thus work with any format (it is known to work with
+longdesc LaTeX and ConTeXt). The main application for the moment is
+longdesc XeIndex, an automatic index for XeLaTeX, but examples are given
+longdesc of simple use to check spelling, count words, and highlight
+longdesc syntax of programming languages.
+containersize 5840
+containermd5 ae57228e45aa9d21219731088394a2fd
+doccontainersize 626444
+doccontainermd5 14349bb1b88d7196060eb5d192100393
+runfiles size=9
+ texmf-dist/tex/xetex/xesearch/t-xesearch.tex
+ texmf-dist/tex/xetex/xesearch/xesearch.sty
+catalogue-ctan /macros/xetex/generic/xesearch
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license lppl

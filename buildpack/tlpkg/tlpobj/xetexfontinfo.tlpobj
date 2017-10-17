@@ -1,0 +1,18 @@
+name xetexfontinfo
+category Package
+revision 15878
+shortdesc Report font features in XeTeX.
+relocated 1
+longdesc A pair of documents to reveal the font features supported by
+longdesc fonts usable in XeTeX. Use OpenType-info.tex for OpenType
+longdesc fonts, and AAT-info.tex for AAT fonts (Mac OS X only).
+containersize 2324
+containermd5 ac12413cee757af39c5b5487fbabc944
+doccontainersize 628
+doccontainermd5 22adbf235c7eaa1aed94040dbb0b0f11
+runfiles size=2
+ texmf-dist/tex/xetex/xetexfontinfo/aat-info.tex
+ texmf-dist/tex/xetex/xetexfontinfo/opentype-info.tex
+catalogue-ctan /macros/xetex/plain/xetexfontinfo
+catalogue-date 2014-02-26 23:03:13 +0100
+catalogue-license apache2
