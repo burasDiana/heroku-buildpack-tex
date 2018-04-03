@@ -1343,7 +1343,11 @@ public
 vntex
 
 ./fonts/tfm/adobe:
+symbol
 zapfding
+
+./fonts/tfm/adobe/symbol:
+psyr.tfm
 
 ./fonts/tfm/adobe/zapfding:
 pzdr.tfm
@@ -2438,6 +2442,7 @@ amiri-slanted.ttf
 
 ./fonts/type1:
 public
+urw
 vntex
 
 ./fonts/type1/public:
@@ -2721,6 +2726,18 @@ xipxsi10.pfb
 xipxsl10.pfb
 xipxss10.pfb
 xipx10.pfb
+
+./fonts/type1/urw:
+symbol
+zapfding
+
+./fonts/type1/urw/symbol:
+usyr.pfb
+usyr.pfm
+
+./fonts/type1/urw/zapfding:
+uzdr.pfb
+uzdr.pfm
 
 ./fonts/type1/vntex:
 arevvn
