@@ -4546,6 +4546,7 @@ crop
 ctable
 datetime
 dvipdfmx-def
+enumitem
 eso-pic
 etex-pkg
 etoolbox
@@ -4568,6 +4569,7 @@ hyperref
 chngcntr
 index
 jknapltx
+koma-script
 lastpage
 latexconfig
 lineno
@@ -4588,6 +4590,7 @@ microtype
 ms
 multirow
 natbib
+needspace
 ntgclass
 oberdiek
 parskip
@@ -4610,6 +4613,7 @@ sepnum
 setspace
 subfig
 tabto-ltx
+tabu
 textcase
 tipa
 titlesec
@@ -4617,6 +4621,7 @@ tools
 typehtml
 underscore
 url
+varwidth
 vntex
 xcolor
 xkeyval
@@ -4838,8 +4843,8 @@ ullasy.fd
 unicode-letters.def
 utf8.def
 utf8enc.dfu
-utf8test.tex
 utf8-test.tex
+utf8test.tex
 x2enc.dfu
 
 ./tex/latex/beamer:
@@ -5223,6 +5228,9 @@ dt-welsh.def
 ./tex/latex/dvipdfmx-def:
 dvipdfmx.def
 
+./tex/latex/enumitem:
+enumitem.sty
+
 ./tex/latex/eso-pic:
 eso-pic.sty
 showframe.sty
@@ -5415,6 +5423,57 @@ tccompat.sty
 ursfs.fd
 ustmary.fd
 young.sty
+
+./tex/latex/koma-script:
+DIN.lco
+DINmtext.lco
+float.hak
+floatrow.hak
+hyperref.hak
+KakuLL.lco
+KOMAold.lco
+listings.hak
+lscape.hak
+NF.lco
+NipponEH.lco
+NipponEL.lco
+NipponLH.lco
+NipponLL.lco
+NipponRL.lco
+nomencl.hak
+scraddr.sty
+scrartcl.cls
+scrbase.sty
+scrbook.cls
+scrdate.sty
+scrdoc.cls
+scrextend.sty
+scrfontsizes.sty
+scrhack.sty
+scrjura.sty
+scrkbase.sty
+scrlayer-notecolumn.sty
+scrlayer-scrpage.sty
+scrlayer.sty
+scrletter.sty
+scrlfile.sty
+scrlttr2.cls
+scrpage2.sty
+scrreprt.cls
+scrsize10pt.clo
+scrsize11pt.clo
+scrsize12pt.clo
+scrtime.sty
+scrwfile.sty
+setspace.hak
+SN.lco
+SNleft.lco
+tocbasic.sty
+tocstyle.sty
+typearea.sty
+UScommercial9DW.lco
+UScommercial9.lco
+visualize.lco
 
 ./tex/latex/lastpage:
 lastpage.sty
@@ -5732,6 +5791,9 @@ multirow.sty
 ./tex/latex/natbib:
 bibentry.sty
 natbib.sty
+
+./tex/latex/needspace:
+needspace.sty
 
 ./tex/latex/ntgclass:
 artikel1.cls
@@ -6238,6 +6300,9 @@ subfig.sty
 ./tex/latex/tabto-ltx:
 tabto.sty
 
+./tex/latex/tabu:
+tabu.sty
+
 ./tex/latex/textcase:
 textcase.sty
 
@@ -6329,6 +6394,9 @@ underscore.sty
 
 ./tex/latex/url:
 url.sty
+
+./tex/latex/varwidth:
+varwidth.sty
 
 ./tex/latex/vntex:
 dblaccnt.sty
